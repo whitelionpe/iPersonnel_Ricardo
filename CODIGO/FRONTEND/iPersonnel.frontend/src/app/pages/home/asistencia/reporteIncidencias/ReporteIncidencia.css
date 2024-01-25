@@ -1,0 +1,18 @@
+.cell-selected {
+    background-color: #337ab7;
+}
+
+.cell-selected span {
+    background-color: #337ab7 !important;
+}
+
+.cell-selected div.div-day-incidencia {
+    background-color: #337ab7 !important;
+}
+
+.celda_Padre {
+    /* background-color: red !important; */
+}
+
+/* cell-selected */
+/* div-day-incidencia */

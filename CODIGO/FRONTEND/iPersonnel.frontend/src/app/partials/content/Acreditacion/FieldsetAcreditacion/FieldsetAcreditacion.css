@@ -1,0 +1,34 @@
+.acreditacion-fieldset {
+  color: white;
+  box-shadow: 0px 0px 0px 0px #000000;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 4px;
+  font-size: 13px !important;
+  text-transform: capitalize;  
+  padding: 5px 55px 25px 20px;
+  border: 1px groove #bdbdbd !important;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 0px 0px 0px #000000;
+}
+
+.acreditacion-legend {
+  font-size: 10px;
+  margin-left: 0px;
+  padding: 0 10px;
+  max-width: 500px;
+  width: auto;
+
+  font-weight: bold;
+  text-align: left;
+  border-radius: 4px;
+  /* text-transform: capitalize; */
+}
+.dafd{
+  text-transform: uppercase;
+}
+/* ============ TITULOS DEL PANEL ============= */
+.fondoGrissPanel{
+  font-size: 12.5px;
+  color: white;
+  margin-top: 5px;
+}

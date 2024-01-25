@@ -1,0 +1,8 @@
+.clsIconRefresh {
+  font-size: 15px;
+}
+
+.fa-sync-alt:before {
+  content: "\f2f1";
+  font-size: 12px;
+}

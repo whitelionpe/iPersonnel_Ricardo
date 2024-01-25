@@ -1,0 +1,74 @@
+
+.card-header-ingreso {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #008c04;
+  border-bottom: 1px solid #008c04;
+  color: white !important;
+}
+
+.card-header-ingreso span {
+  color: white !important;
+}
+
+
+.card-header-salida {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #0c98d8;
+  border-bottom: 1px solid #0c98d8;
+  color: white !important;
+}
+
+.card-header-salida span {
+  color: white !important;
+}
+
+.card-header-refrigerio {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #fd8021;
+  border-bottom: 1px solid #fd8021;
+  color: white !important;
+}
+
+.card-header-refrigerio span {
+  color: white !important;
+}
+
+.card-header-horasExtra {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #fb3c27;
+  border-bottom: 1px solid #fb3c27;
+  color: white !important;
+}
+
+.card-header-horasExtra span {
+  color: white !important;
+}
+
+/* .dx-widget {
+  color: #fff;
+  font-weight: normal;
+  font-size: 11px;
+  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Verdana, sans-serif;
+  line-height: 1.35715;
+} */
+
+
+.card-header-dia {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #275289;
+  border-bottom: 1px solid #275289;
+  color: white !important;
+}
+
+.card-header-accion {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #71757d;
+  border-bottom: 1px solid #71757d;
+  color: white !important;
+}

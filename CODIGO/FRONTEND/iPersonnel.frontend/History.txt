@@ -1,0 +1,29 @@
+SOPORTA NODE
+============
+v16.14.2 && v13.4.3
+
+CONFIG
+============
+"start": "set PORT=3001 && react-scripts start",
+
+COMPILACION
+============
+yarn start
+npm run build
+npm install
+
+COLORES CORPORATIVO
+===================
+Secure
+Pantone 7549 C
+#ffbf00
+
+Dark Tech
+Pantone Black 4 C
+#010101
+
+Midnight 
+Pantone 
+#141516
+
+

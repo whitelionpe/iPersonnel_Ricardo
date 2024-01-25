@@ -1,0 +1,190 @@
+.css_calendario div.dx-scheduler-header {
+  display: none;
+}
+
+.css_calendario div.dx-tabs-wrapper {
+  display: none;
+}
+
+.css_calendario div.dx-scheduler-navigator-previous {
+  display: none;
+}
+
+.css_calendario div.dx-scheduler-navigator-next {
+  display: none;
+}
+
+.css_servicio_item {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  padding-bottom: 2px !important;
+  padding-top: 2px !important;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+.css_servicio_item span {
+  color: white;
+}
+
+.div_reserva_item {
+  font-size: 1em !important;
+  height: fit-content;
+  font-weight: normal;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.div_reserva_item span {
+  display: table-caption;
+}
+
+.item_color_checkin {
+  background-color: rgb(187, 216, 6);
+}
+
+.item_color_checkout {
+  background-color: rgb(255, 136, 23);
+}
+
+.item_opt_color_checkin {
+  background-color: rgb(187, 216, 6);
+}
+.item_opt_color_checkout {
+  background-color: #007cb7;
+}
+.item_opt_color_reserva {
+  background-color: rgb(86, 15, 209);
+  
+}
+
+.item-badge {
+  text-align: center;
+  float: left;
+  margin-right: 12px;
+  color: white;
+  width: 18px;
+  height: 18px;
+  font-size: 19.5px;
+  border-radius: 18px;
+  margin-top: 2px;
+}
+
+.reserva_detalle_titulo {
+  text-align: center;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #007cb7 !important;
+  padding-top: 2px;
+}
+
+.reserva_detalle_titulo span {
+  color: white !important;
+}
+
+.celda_calendario_p {
+  position: relative;
+}
+
+.celda_calendario_h {
+  position: absolute;
+  float: right;
+  display: block;
+  z-index: 9;
+  right: 0px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.celda_inicio_mes {
+  border: solid 2px #007cb7;
+  width: 100%;
+  height: 100%;
+  padding-right: 0px !important;
+  margin-right: 0;
+}
+
+#calendario_reserva {
+  color: red;
+}
+
+.disabled_option {
+  opacity: 0.3;
+  color: black;
+  /*-webkit-text-stroke: 1px #afafb9;*/
+  text-shadow: -1px 0 #afafb9, 0 1px #afafb9, 1px 0 #afafb9, 0 -1px #afafb9;
+
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  padding-bottom: 5px;
+  margin-bottom: -5px;
+}
+
+.item_reservado_click {
+  border: 2px solid #007cb7;
+}
+
+.item_checkout {
+  background-color: #007cb7;
+}
+
+.item_ocupado {
+  background-color: rgb(187, 216, 6);
+}
+
+.item_reservado {
+  background-color: #aa1c97;
+}
+
+.item_exclusiva {
+  color: black !important;
+  border-color: black !important;
+}
+
+.item_cuadro input {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.item_cuadro_i input {
+  background-color: rgb(187, 216, 6);
+}
+.item_cuadro_o input {
+  background-color: #007cb7;
+}
+.item_cuadro_r input {
+  background-color: rgb(255, 136, 23);
+}
+
+.item_color_font {
+  color: white !important;
+}
+
+.item_top_0 span {
+  padding-top: 15px;
+  color: #de6e4b;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.item_cuadro_green input {
+  background-color: #00b71fa2;
+}
+
+.item_cuadro_blue input {
+  background-color: #007cb7;
+}
+
+.item_cuadro_red input {
+  background-color: #d0150ed2;
+}
+ 

@@ -1,0 +1,28 @@
+/* ====================================================================== */
+/* HabitacionItem (prefix: hi-) */
+/* ====================================================================== */
+.mh.disabled {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+  opacity: 0.6 !important;
+  background-color: #f7f7f7 !important;
+  pointer-events: none !important;
+}
+.hi-col-middle {
+  border-left: 1px solid rgba(0, 0, 0, 0.12) !important;
+  border-right: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+/* ====================================================================== */
+/* HabitacionItemConfigurador (prefix: hic-) */
+/* ====================================================================== */
+.mhc {
+  height: 100%;
+}
+/* ====================================================================== */
+/* HabitacionItemBotonera (prefix: hib-) */
+/* ====================================================================== */
+.mhb {
+  height: 100%;
+}
+.mhb .dx-toolbar-items-container {
+  background: unset !important;
+}

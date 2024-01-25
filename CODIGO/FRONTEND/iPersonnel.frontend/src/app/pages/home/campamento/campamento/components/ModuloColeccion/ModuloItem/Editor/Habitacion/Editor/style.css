@@ -1,0 +1,140 @@
+/* ====================================================================== */
+/* HabitacionItem (prefix: hi-) */
+/* ====================================================================== */
+.hi {
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important; */
+}
+.hi-col-middle {
+  border-left: 1px solid rgba(0, 0, 0, 0.12) !important;
+  border-right: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+/* .hi.disabled {
+  background: #00000029;
+  pointer-events: none;
+}
+.hi.disabled .vcg-boxes-grid {
+  background: #00000000 !important;
+}
+.hi.disabled .vcg-box {
+  background: #8c898926 !important;
+}
+.hi.disabled .dx-toolbar-items-container {
+  background: #8c898952 !important;
+}
+.hi.disabled .dx-toolbar-item .dx-button-has-icon .dx-button-content {
+  background: #8c89892e !important
+} */
+/* ====================================================================== */
+/* HabitacionItemConfigurador (prefix: hic-) */
+/* ====================================================================== */
+.hic {
+  height: 100%;
+}
+/* .hi .disabled .hic {
+  background: #00000029;
+  pointer-events: none;
+}
+.hi .disabled .hic .vcg-boxes-grid {
+  background: #00000000 !important;
+}
+.hi .disabled .hic .vcg-box {
+  background: #8c898926 !important;
+} */
+/* ====================================================================== */
+/* HabitacionItemBotonera (prefix: hib-) */
+/* ====================================================================== */
+.hib {
+  height: 100%;
+}
+.hib > .title {
+  color: #646c9a;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.hib .dx-toolbar-items-container {
+  background: unset !important;
+}
+/* .hi .disabled .hib {
+  background: #00000029;
+  pointer-events: none;
+}
+.hi .disabled .hib .dx-toolbar-items-container {
+  background: #8c898952 !important;
+}
+.hi .disabled .hib .dx-toolbar-item .dx-button-has-icon .dx-button-content {
+  background: #8c89892e !important
+} */
+
+/* **************************************** */
+/* hie */
+/* **************************************** */
+.hie {
+  color: #646c9a;
+}
+.hie .kt-widget1 {
+  padding: 10px 0px !important;
+}
+.hie .bottom-header.kt-widget1__header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.hie .kt-widget1 .kt-widget1__title {
+  font-weight: 500;
+}
+.hie .kt-widget1__header .kt-widget1__title {
+  font-size: 2rem !important;
+  padding-left: 18px;
+}
+.hie .kt-widget1__header .buttons-header {
+  display: inline-flex !important;
+  position: absolute !important;
+  right: 0 !important;
+}
+.hie .kt-widget1__item.ng-star-inserted {
+  padding: .5rem 1rem .5rem 0px !important;
+}
+.hie .kt-widget1__item:first-child {
+  padding-top: 0 !important;
+}
+.hie .kt-widget1__item:last-child {
+  padding-bottom: 0 !important;
+}
+.hie .kt-widget1__item .kt-widget1__number {
+  font-size: 1rem !important;
+}
+/* **************************************** */
+
+
+
+/* EXTRA BOX STYLES */
+.azul-corporativo {
+	background-color: #337ab7;
+	border: 1px solid #262733;
+	color: #ffffff;
+}
+.blanco {
+	background-color: #fafbfd;
+	border: 1px solid #c3c3c7;
+	color: #3e443d;
+}
+.marron {
+	background-color: #754b03;
+	border: 1px solid #652d01;
+	color: #ffffff;
+}
+.verde {
+  background: #00bf00;
+  border: 1px solid #256718;
+  color: #ffffff;
+}
+.verde-petroleo {
+  background-color: #20520e;
+	border: 1px solid #082f00;
+	color: #ffffff;
+}
+.transparente-con-borde {
+	border: 1px solid #abcff3;
+	color: #9a9595;
+}

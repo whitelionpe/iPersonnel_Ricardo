@@ -1,0 +1,31 @@
+
+.card-header {
+  border-radius: 2px 3.5px 3.5px 3.5px !important;
+  text-align: center;
+  text-transform: uppercase;
+  height: 35px;
+}
+.card-header-estado {
+ 
+  background-color: #ffbf00;
+  border-bottom: 1px solid #ffbf00;
+  color: white !important;
+
+}
+
+.card-header p {
+ font-size: 12px;
+ font-weight: bold;
+ font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Verdana, sans-serif !important;
+}
+
+.card-header-privilegio {
+ 
+  background-color: #000000;
+  border-bottom: 1px solid #000000;
+  color: white !important;
+
+}
+
+
+

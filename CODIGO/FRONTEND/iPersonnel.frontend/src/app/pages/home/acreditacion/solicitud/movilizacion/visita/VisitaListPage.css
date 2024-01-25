@@ -1,0 +1,146 @@
+.estado_item_general {
+  color: white;
+  padding: 3px 10px 3px 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/**********************/
+.estado_item_incompleto {
+  background-color: rgb(167, 167, 167);
+}
+
+.estado_item_pendiente {
+  background-color: #ff7f2a;
+}
+
+.estado_item_observado {
+  background-color: #ffd400;
+  color: black !important;
+}
+
+.estado_item_rechazado {
+  background-color: #970e00;
+}
+
+.estado_item_aprobado {
+  background-color: green;
+}
+
+/**********************/
+
+.estado_item_izq {
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.title-estado-general {
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.title-estado-general-bar {
+  font-size: 15px;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.title-estado-general-row {}
+
+.title-estado-general-row div:first {
+  width: 100%;
+}
+
+/************************************************************/
+/************************************************************/
+
+.bordertooltip {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.btn-danger-solicitante {
+  padding-left: 2px !important;
+  padding-right: 3px !important;
+  border-color: gray !important;
+  height: 36px;
+}
+
+.btn-verobs {
+  padding-right: 3px;
+  padding-left: 7px;
+  border-color: gray !important;
+}
+
+.btn-group-r {
+  float: right;
+}
+
+div.clsTextExtenso1 textarea {
+  height: 30px;
+  /* text-transform: uppercase; */
+}
+
+.div-estado-grilla {
+  display: flex;
+}
+
+.div-estado-grilla-cuadrado {
+  width: 50px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.div-estado-grilla-observado {
+  width: 100%;
+  display: flex;
+}
+
+.div-estado-grilla-observado-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dx-master-detail-cell {
+  background-color: #ecfdf3 !important;
+}
+
+.css-grid-detail tr.dx-header-row {
+  background-color: #646464;
+}
+
+.css-grid-detail div.dx-datagrid-text-content {
+  color: white !important;
+}
+
+.css-grid-detail tr.dx-row-focused td {
+  background-color: #c4c4c4 !important;
+  /* color: #0B1D66!important; */
+}
+
+.dx-master-detail-cell {
+  background-color: #fde3c3 !important;
+}
+
+.css-grid-detail .dx-datagrid-rowsview .dx-row-focused.dx-data-row td {
+  background-color: #c4c4c4 !important;
+}
+
+
+.div_tab_overflow {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

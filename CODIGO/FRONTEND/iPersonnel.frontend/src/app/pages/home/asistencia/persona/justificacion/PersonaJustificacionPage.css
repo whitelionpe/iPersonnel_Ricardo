@@ -1,0 +1,196 @@
+
+
+/* .item-badge {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid #faa200;
+  border-top: 12px solid transparent;
+  border-bottom: 10px solid transparent; 
+  margin-top: -1px;
+} */
+
+
+.dx-context-menu .dx-submenu {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
+  box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
+}
+
+.dx-menu-item {
+  color: #313131;
+}
+
+.dx-menu-item.dx-state-hover {
+  color: #313131;
+}
+
+.css_calendario div.dx-scheduler-header {
+  display: none;
+}
+
+.css_calendario div.dx-tabs-wrapper {
+  display: none;
+}
+
+.css_calendario div.dx-scheduler-navigator-previous {
+  display: none;
+}
+
+.css_calendario div.dx-scheduler-navigator-next {
+  display: none;
+}
+
+.css_calendario .dx-scheduler-appointment {
+  border-bottom: 1px solid transparent;
+  background-clip: padding-box;
+  position: absolute;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  background-color: #ff7f2a;  /* #f7ed5d; */
+  color: rgb(255, 255, 255);
+  -webkit-box-shadow: inset 0 2px 0 0 rgb(0 0 0 / 30%);
+  box-shadow: inset 0 2px 0 0 rgb(0 0 0 / 30%);
+  left: 0;
+  min-width: 4px;
+  min-height: 4px;
+}
+
+.justificacion_detalle_titulo {
+  text-align: center;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #faa200 !important;
+  padding-top: 2px;
+}
+
+.justificacion_detalle_titulo span {
+  color: white !important;
+}
+
+
+.div_justi_item {
+  font-size: 1em !important;
+  /* height: fit-content; */
+  font-weight: normal;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.div_justi_item span {
+  display: table-caption;
+}
+
+.div_justi_item h6 {
+    color: #faa200;
+    background-color: #ffffff;
+}
+
+
+.div_inc_item {
+  font-size: 1em !important;
+  /* height: fit-content; */
+  font-weight: normal;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  /* color:#1b22df; ----> Esto es de prueba
+  background-color:#df1b66; */
+}
+
+.div_inc_item span {
+  display: table-caption;
+}
+
+.div_inc_item h6 {
+  /* color: #25b1b1;
+  background-color: #540505; */
+    color: #6b6b6b;
+    background-color: #ffffff;
+}
+/* .div_inc_item #divIncidencia h6 {
+    color: #25b1b1;
+    background-color: #ffffff;
+} */
+
+.item_feriado {
+  background-color:#d60202;
+}
+
+
+.item_justificacion {
+  background-color: #faa200;
+}
+
+
+.card-header-archivo {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #bbd2e2;
+  border-bottom: 1px solid #bbd2e2;
+  color: white !important;
+}
+
+.card-header-editar-horas {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #bec1c1;
+  border-bottom: 1px solid #bec1c1;
+  color: white !important;
+}
+
+.card-header-editar-horas-no {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #0f850f;
+  border-bottom: 1px solid #0f850f;
+  color: white !important;
+}
+
+.detalle_barraLeyenda {
+  text-align: center;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #faa200 !important;
+  padding-top: 2px;
+}
+
+.detalle_barraTextDetHorario {
+  text-align: center;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #ffffff !important;
+  padding-top: 5px;
+  height: 30px;
+}
+
+
+
+
+.fechaSeleccionadaColor {
+  text-align: center;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #e8dd45 !important;
+  padding-top: 2px;
+}
+
+
+
+.item_cuadro_dia input {
+  background-color: #43efef;
+}
+.item_cuadro_noche input {
+  background-color: #a9a6a6;
+}

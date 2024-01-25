@@ -1,0 +1,34 @@
+.card-header {
+  border-radius: 2px 3.5px 3.5px 3.5px !important;
+  text-align: center;
+  text-transform: uppercase;
+  height: 35px;
+
+}
+
+.card-header-config {
+  background-color: #008c04;
+  border-bottom: 1px solid #008c04;
+  color: white !important;
+
+}
+
+
+.card-header-planilla {
+
+  background-color: #fd8021;
+  border-bottom: 1px solid #fd8021;
+  color: white !important;
+
+}
+
+.card-header-sedes {
+ 
+  background-color: #0c98d8;
+  border-bottom: 1px solid #0c98d8;
+  color: white !important;
+
+}
+
+
+

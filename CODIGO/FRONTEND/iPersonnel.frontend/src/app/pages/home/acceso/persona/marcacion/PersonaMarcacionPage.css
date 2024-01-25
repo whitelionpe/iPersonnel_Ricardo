@@ -1,0 +1,31 @@
+
+
+.MuiBadge-anchorOriginTopRightCircle {
+  top: 10%;
+  right: 10%;
+  transform: scale(1) translate(55%, -55%);
+  transform-origin: 100% 0%;
+}
+
+.detalle_barraTextHash {
+  text-align: center;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #fc0a0aa6 !important;
+  padding-top: 5px;
+  height: 30px;
+}
+
+.detalle_barraTextTiempoAcreditacion {
+  text-align: center;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #337ab7 !important;
+  padding-top: 5px;
+  height: 30px;
+  color: white;
+}

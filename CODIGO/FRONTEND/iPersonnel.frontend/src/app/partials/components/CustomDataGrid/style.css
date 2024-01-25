@@ -1,0 +1,27 @@
+.vcg-custom-data-grid > .vcg-wrapper-pagination > nav {
+  justify-content: flex-end !important;
+  right: 8px;
+  position: relative;
+  top: 2px;
+}
+.vcg-custom-data-grid.vcg-disabled {
+  pointer-events: none !important;
+}
+
+.vcg-custom-data-grid.uppercase-filter-row .dx-datagrid-headers tr.dx-datagrid-filter-row input.dx-texteditor-input {
+  text-transform: uppercase !important;
+}
+
+.vcg-custom-data-grid.filter-row-sm .dx-datagrid-headers tr.dx-datagrid-filter-row {
+  min-height: 24px !important;
+  font-size: 11px !important;
+  padding: 0 !important;
+}
+.vcg-custom-data-grid.filter-row-sm .dx-datagrid-headers tr.dx-datagrid-filter-row > td {
+  padding: 0 !important;
+}
+.vcg-custom-data-grid.filter-row-sm .dx-datagrid-headers tr.dx-datagrid-filter-row input.dx-texteditor-input {
+  min-height: 24px !important;
+  font-size: 11px !important;
+  padding: 4px !important;
+}

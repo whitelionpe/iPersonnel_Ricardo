@@ -1,0 +1,29 @@
+.asiento.azul-corporativo {
+	background-color: #337ab7;
+	border: 1px solid #262733;
+	color: #ffffff;
+}
+.asiento.blanco {
+	background-color: #fafbfd;
+	border: 1px solid #c3c3c7;
+	color: #3e443d;
+}
+.asiento.marron {
+	background-color: #754b03;
+	border: 1px solid #652d01;
+	color: #ffffff;
+}
+.asiento.verde {
+  background: #00bf00;
+  border: 1px solid #256718;
+  color: #ffffff;
+}
+.asiento.verde-petroleo {
+  background-color: #20520e;
+	border: 1px solid #082f00;
+	color: #ffffff;
+}
+.asiento.transparente-con-borde {
+	border: 1px solid #abcff3;
+	color: #9a9595;
+}

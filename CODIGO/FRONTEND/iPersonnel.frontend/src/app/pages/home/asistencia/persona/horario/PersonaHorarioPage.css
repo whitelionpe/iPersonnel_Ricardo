@@ -1,0 +1,30 @@
+
+
+.MuiBadge-anchorOriginTopRightCircle {
+  top: 10%;
+  right: 10%;
+  transform: scale(1) translate(55%, -55%);
+  transform-origin: 100% 0%;
+}
+
+.detalle_barraTextDetalle {
+  text-align: center;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #f7f6f0f7 !important;
+  padding-top: 5px;
+  height: 30px;
+}
+
+.detalle_barraText {
+  text-align: center;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #ffffff !important;
+  padding-top: 5px;
+  height: 30px;
+}

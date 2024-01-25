@@ -1,0 +1,40 @@
+.backdrop {
+  background: rgb(195 195 195 / 69%);
+  position: fixed;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.page-lock .lock-centered {
+  position: absolute;
+  top: 42.5%;
+  left: 0;
+  right: 0;
+  margin-top: -65px;
+}
+@media screen and (min-width: 768px) {
+  .page-lock .lock-centered {
+    margin-top: -75px;
+  }
+}
+
+.page-lock .lock-container {
+  position: relative;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.lock-container .MuiAlert-message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.lock-container .MuiAlertTitle-root{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+/* ====================================================================== */
+/* ModuloItem (prefix: mi-) */
+/* ====================================================================== */
+.mi.disabled {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+  opacity: 0.6 !important;
+  background-color: #f7f7f7 !important;
+  pointer-events: none !important;
+}
+.mi-col-middle {
+  border-left: 1px solid rgba(0, 0, 0, 0.12) !important;
+  border-right: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+/* ====================================================================== */
+/* ModuloItemConfigurador (prefix: mic-) */
+/* ====================================================================== */
+.mic {
+  height: 100%;
+}
+/* ====================================================================== */
+/* ModuloItemBotonera (prefix: mib-) */
+/* ====================================================================== */
+.mib {
+  height: 100%;
+}
+.mib .dx-toolbar-items-container {
+  background: unset !important;
+}

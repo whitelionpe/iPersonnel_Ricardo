@@ -1,0 +1,66 @@
+.dayName {
+  color: #275289;
+  font-weight: bold;
+  
+}
+
+.header {
+  padding: 1px;
+  margin-bottom: 0;
+  padding: 0.75rem 1.25rem;
+  color: white !important;
+ 
+}
+
+.detail {
+  font-size: 10px;
+  background-color: #e2e8f2;
+  font-weight: bold;
+  
+} 
+
+.header-dia { 
+  font-size: 10px;
+  padding: 1px;
+  margin-bottom: 0;
+  background-color: #275289;
+  border-bottom: 1px solid #275289;
+  color: white !important;
+}
+
+.header-ingreso {
+  font-size: 10px;
+  padding: 1px;
+  margin-bottom: 0;
+  background-color: #008c04;
+  border-bottom: 1px solid #008c04;
+  color: white !important;
+}
+
+.header-salida {
+  font-size: 10px;
+  padding: 1px;
+  margin-bottom: 0;
+  background-color: #0c98d8;
+  border-bottom: 1px solid #0c98d8;
+  color: white !important;
+}
+
+.header-refrigerio {
+  font-size: 10px;
+  padding: 1px;
+  margin-bottom: 0;
+  background-color: #fd8021;
+  border-bottom: 1px solid #fd8021;
+  color: white !important;
+}
+
+.header-horasExtra {
+  font-size: 10px;
+  padding: 1px;
+  margin-bottom: 0;
+  background-color: #fb3c27;
+  border-bottom: 1px solid #fb3c27;
+  color: white !important;
+}
+

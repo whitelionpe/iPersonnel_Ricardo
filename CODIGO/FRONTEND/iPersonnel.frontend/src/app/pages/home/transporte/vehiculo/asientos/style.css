@@ -1,0 +1,148 @@
+.icono-central {
+  font-size: 2rem !important;
+  top: 16px;
+  position: relative;
+}
+
+.asiento.azul-corporativo {
+  background-color: #337ab7;
+  border: 1px solid #262733;
+  color: #ffffff;
+}
+
+.bg-asiento-activo-amarillo-claro {
+  /* background-color: #fafdab; */
+  background-color: #fbffa0;
+  border: 1px solid #ded57d;
+}
+
+.bg-asiento-activo {
+  background-color: #337ab7;
+  border: 1px solid #262733;
+}
+
+.bg-asiento-inactivo {
+  background-color: #000000;
+  border: 1px solid #616060;
+  opacity: 0.4;
+}
+
+.bg-asiento-vacio {
+  background-color: #00000000;
+  border: 1px solid #d6d6d6;
+  opacity: 1;
+}
+
+.text-asiento-activo-amarillo-claro {
+  font-weight: bold;
+  /* color: #502b2b; */
+  color: #350e0e;
+}
+
+.text-asiento-activo {
+  font-weight: bold;
+  color: #2871b1;
+}
+
+.text-asiento-inactivo {
+  font-weight: bold;
+  color: #080808;
+  opacity: 0.7;
+}
+
+.text-asiento-vacio {
+  font-weight: bold;
+  color: #111111;
+  opacity: 0.5;
+}
+
+ul.leyenda {
+  /* width: 930px; */
+  text-align: left;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.containerSeat {
+  width: 945px;
+}
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 18px !important;
+  padding-left: 16px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.summary {
+  padding-top: 1.9rem !important;
+}
+
+.summary .caption {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.summary .data {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4f57a2;
+}
+
+.switch-right {
+  width: 300px;
+  position: absolute;
+  right: 20px;
+}
+
+/* ------------------------------------------------ */
+/* Estilos para los ítems repetidos */
+/* ------------------------------------------------ */
+.estilo-rojo {
+  border: 3px solid #e81010 !important;
+  color: #ffcfcf !important;
+}
+
+.estilo-anaranjado {
+  border: 3px solid #da6a07 !important;
+  color: #ead7bb !important;
+}
+
+.estilo-violeta {
+  border: 3px solid #ca46ff !important;
+  color: #ead3f3 !important;
+}
+
+.estilo-verde-olivo {
+  border: 3px solid #ab9b04 !important;
+  color: #f1daa9 !important;
+}
+
+.estilo-verde-opaco {
+  border: 3px solid #00b983 !important;
+  color: #c6f9ea !important;
+}
+
+.estilo-verde-encendido {
+  border: 3px solid #26c106 !important;
+  color: #a9ea9e !important;
+}
+
+.estilo-amarillo {
+  border: 3px solid #fff200 !important;
+  color: #fffc99 !important;
+}
+
+/* //================= ALINEAR CONATINER ===================== */
+.cls_rowLeftRight {
+  margin-left: 15px;
+  margin-right: 28px;
+}

@@ -1,0 +1,81 @@
+#gridRegimenGuardiaDias td.celda_Padre {
+  padding: 0 0 0 0 !important;
+  margin: 0 0 0 0 !important;
+  position: relative;
+}
+
+.celda_Hijo_General {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding-top: 3px;
+  font-weight: bold;
+
+  background-color: #0f770f;
+  color: white;
+}
+
+.celda_D {
+  background-color: #000a8d;
+  color: white;
+}
+.celda_N {
+  background-color: #000100;
+  color: white;
+}
+
+/* .celda_L {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding-top: 3px;
+  font-weight: bold;
+  background-color: #0f770f;
+  color: white;
+}
+ */
+
+
+
+
+.cuadro_alerta {
+  background-color: #fefefe !important;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border: none !important;
+}
+
+.cuadro_badge {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 2px;
+}
+
+.btn_badge {
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 2px;
+}
+
+.cell-selected {
+  background-color: #337ab7;
+}
+.cell-selected span {
+  background-color: #337ab7 !important;
+}
+
+#gridRegimenGuardiaDias {
+  user-select: none;
+  -webkit-user-select: none;
+}

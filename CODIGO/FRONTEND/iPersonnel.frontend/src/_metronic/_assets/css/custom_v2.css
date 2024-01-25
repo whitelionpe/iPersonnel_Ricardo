@@ -1,0 +1,1264 @@
+.makeStyles-principal-31 {
+  font-size: 13px !important;
+  align-items: center !important;
+  font-family: 'Nunito Sans', "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  background-color: #FFBF00 !important;
+}
+/*  =========== START - PARA LOS MENSAJES DE ERROR */
+.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+  border: 2px solid #F00 !important;
+  background-color: rgba(255, 0, 0, 0.10) !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 2px solid black !important;
+}
+
+.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput {
+  border: 2px solid #F00 !important;
+  background-color: rgba(255, 0, 0, 0.10) !important;
+}
+
+.MuiFormLabel-root.Mui-error, .MuiFormHelperText-root.Mui-error {
+  color: #F00 !important;
+}
+ /* ======= COLOR AL MENSAJE DE ERROR DE FORGOTPASSWORD ======= */
+.clsLoginFormUsuario > .MuiFormControl-root > .MuiFormControl-root > p{
+  color: #fff !important;
+  font-size: 12px !important;
+  display: contents;
+}
+ /* ::::::::::::::::::::::::::::::::: ESTILOS DEL TEMPLATE V01_s ::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+ .makeStyles-principal-10 {
+  font-size: 13px !important;
+  align-items: center !important;
+  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #000000 !important;
+}
+
+/* =========BARRA DE TITULO DE LA GRIDTABLE =============*/
+/* .makeStyles-principal-4 {
+font-size: 13px !important;
+align-items: center !important;
+font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Verdana, sans-serif !important;
+border-radius: 2px 4px 4px 4px !important;
+text-transform: uppercase !important;
+background-color: #FFBF00 !important;
+} */
+
+
+
+/* ========================================================= */
+
+/* BOTONES DE ACCIONES, COMO AGREGAR, BUSCAR Y ACTUALIZAR DE LA GRIDTABLE */
+.dx-button-mode-contained.dx-button-default {
+  background-color: black;
+  border-color: transparent;
+  color: #fff;
+}
+
+/* ===ICONOS DE LAS OPCIONES DE LA GRIDTABLE== */
+/* .makeStyles-tabContent-11.Mui-selected {
+  color: #FFBF00;
+  background-color: #E9EBF9;
+}
+
+.makeStyles-tabContent-17.Mui-selected {
+  color: #000000 !important;
+  background-color: #E9EBF9;
+}
+
+.makeStyles-tabContent-38.Mui-selected {
+  color: #FFBF00;
+  background-color: #E9EBF9;
+} */
+
+/* ===================================== */
+
+.dx-datagrid .dx-link {
+  color: #000000;
+}
+
+
+/* SUBTITULOS DE LAS TABLAS DE LA GRIDTABLE */
+.dx-header-row {
+  background-color: black;
+  /* color: #FFBF00; */
+  font-weight: bold;
+}
+
+/* //========== PIE DE PAGINADOR DEL GRIDTABLE  ==========*/
+.dx-datagrid-text-content {
+  color: white !important;
+}
+
+.classColorPaginador_{
+  color: black !important;
+  /* width: 20rem;
+  left: -17px;
+ */
+}
+/* ============================================================== */
+
+/* FILA DE LA TABLA AL SELECCIONAR EL GRIDTABLE */
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row>td:not(.dx-focused),
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row>tr>td:not(.dx-focused),
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row .dx-command-edit:not(.dx-focused) .dx-link {
+  background-color: #758075 !important;
+  color: #fff;
+}
+
+.makeStyles-secundario-5 {
+  color: #ffffff !important;
+  font-size: 11px !important;
+  min-width: 10px !important;
+  box-shadow: 0px 0px 0px -1px rgb(0 0 0 / 10%), 1px 1px 1px -1px rgb(0 0 0 / 0%), 0px 1px 0px 0px rgb(0 0 0 / 11%) !important;
+  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 3.5px 3.5px 3.5px !important;
+  text-transform: uppercase !important;
+  background-color: #FFBF00 !important;
+}
+
+.kt-header-menu .kt-menu__nav>.kt-menu__item>.kt-menu__link .kt-menu__link-text {
+  color: #f9f9fc !important;
+}
+
+/* COLOR DEL SUBHEADER DEL ADMIN */
+@media (min-width: 1025px) {
+  .kt-header {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    position: fixed;
+    z-index: 2;
+    width: 100% !important;
+    background-size: cover;
+    /* background-image: url("/template_01/assets/images/resource/experiencia/titulo1.jpg") !important; */
+  }
+}
+
+/* COLOR DEL PAGINADOR */
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff !important;
+  background-color: #000000 !important;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #000000 !important;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+/* CABECERA DE "BUSCAR PERSONAS - EDITAR" */   
+.dx-popup-title.dx-toolbar {
+  /* background: #FFBF00; */
+  background-image: url(/template_01/assets/images/header/ipersonnel_header_secundario.jpg) !important;
+  padding: 0px 20px;
+  overflow: visible;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: round;
+}
+
+
+/* COLOR PARA LOS BOTONES HOVER*/
+.dx-button-mode-contained.dx-button-default.dx-state-hover {
+  background-color: #000000;   
+  border: 1px solid #ffffff;
+}
+
+/* COLOR DEL SUBMENU HEADER*/
+@media (min-width: 1025px) {
+  .kt-header-menu .kt-menu__nav>.kt-menu__item.kt-menu__item--here>.kt-menu__link {
+    background-color: #758075 !important;
+  }
+}
+
+/* GRADIENTE DEL PROFILE DE OPCIONES */
+.kt-user-card {
+  display: flex;
+  /* background: linear-gradient(70deg, #FFBF00, #646464) !important; */
+  background-image: url(/template_01/assets/images/profile/onda_inf.jpg) !important;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem 1rem;
+  background-color: #f9fafe;
+}
+
+/* BOTON DE SEGURIDAD DE LA OPCION  CARD PROFILE */
+.btn-primary {
+  /* color: #fff; */
+  background-color: #FFBF00 !important;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+/* BOTON CERRAR SESSION */
+.btn.btn-label-brand {
+  border-radius: 5px!important;
+  background-color: #FFBF00!important;
+  border: 2px solid #FFBF00!important;
+  color: #232323!important;
+}
+
+.classCerrarSesion{
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 5px!important;
+  border: 2px solid #FFBF00!important;
+  background-color: #FFBF00!important;
+  color: #232323!important;
+}
+
+.classCerrarSesionBorder {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 5px!important;
+  border: 2px solid #000000!important;
+  background-color: #FFBF00!important;
+  color: #232323!important;
+}
+
+.classCerrarSesion:hover{
+  border-radius: 5px!important;
+  border: 2px solid #FFBF00!important;
+  background-color: #181818!important;
+  color: #FFBF00!important;
+}
+/* TODOS LOS BOTONES HOVER EN CERRAR SESSION */
+label.btn.btn-label-brand:focus,
+label.btn.btn-label-brand:hover,
+label.btn.btn-label-brand.active,
+a.btn.btn-label-brand:focus,
+a.btn.btn-label-brand:hover,
+a.btn.btn-label-brand.active,
+button.btn.btn-label-brand:focus,
+button.btn.btn-label-brand:hover,
+button.btn.btn-label-brand.active,
+input.btn.btn-label-brand:focus,
+input.btn.btn-label-brand:hover,
+input.btn.btn-label-brand.active {
+  border-radius: 5px!important;
+  border: 2px solid #FFBF00!important;
+  background-color: #181818!important;
+  color: #FFBF00!important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #c7c7c7;
+  border-color: #646464;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #c7c7c7;
+  border-color: #646464;
+}
+
+/* SISTEMA-configuracion-objetos de formularios - TITULO DE LA TABLA */
+.makeStyles-principal-112 {
+  font-size: 13px !important;
+  align-items: center !important;
+  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #FFBF00 !important;
+}
+
+.makeStyles-tabContent-119.Mui-selected {
+  color: #FFBF00;
+  background-color: #E9EBF9;
+}
+
+/* HOVER DEL MENU DE INICIO, SISTEMA, ETC */
+@media (min-width: 1025px) {
+
+  .kt-header-menu .kt-menu__nav>.kt-menu__item .kt-menu__submenu>.kt-menu__subnav>.kt-menu__item:hover:not(.kt-menu__item--here):not(.kt-menu__item--active)>.kt-menu__link .kt-menu__link-text,
+  .kt-header-menu .kt-menu__nav>.kt-menu__item .kt-menu__submenu>.kt-menu__subnav>.kt-menu__item.kt-menu__item--hover:not(.kt-menu__item--here):not(.kt-menu__item--active)>.kt-menu__link .kt-menu__link-text {
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 1025px) {
+
+  .kt-header-menu .kt-menu__nav>.kt-menu__item .kt-menu__submenu>.kt-menu__subnav>.kt-menu__item:hover:not(.kt-menu__item--here):not(.kt-menu__item--active)>.kt-menu__link .kt-menu__link-icon,
+  .kt-header-menu .kt-menu__nav>.kt-menu__item .kt-menu__submenu>.kt-menu__subnav>.kt-menu__item.kt-menu__item--hover:not(.kt-menu__item--here):not(.kt-menu__item--active)>.kt-menu__link .kt-menu__link-icon {
+    color: #ffffff;
+  }
+}
+
+/* CARD DEL PROFILE: EN CERRAR SESSION */
+.h6_profile {
+  color: white;
+}
+
+/* COLOR PARA EL FILE MANAGER */
+.dx-treeview-item-without-checkbox.dx-state-focused>.dx-treeview-item {
+  background-color: #758075;
+  color: #fff;
+}
+
+/* SUBMENU DE OPCIONES: "MÓDULOS DE 2PERSONNEL - MENÚS" */
+.makeStyles-tabContent-52.Mui-selected {
+  color: #FFBF00 !important;
+}
+
+.makeStyles-tabContent-42.Mui-selected {
+  color: #FFBF00 !important;
+}
+
+.makeStyles-tabContent-32.Mui-selected {
+  color: #FFBF00 !important;
+}
+
+.makeStyles-tabContent-58.Mui-selected {
+  color: #FFBF00 !important;
+}
+
+/* COLOR DEL AVATAR DEL MENU A LA DERECHA */
+.kt-user-card.kt-user-card--skin-dark .kt-user-card__avatar .kt-badge {
+  background-color:#000000;
+  /* color: white !important; */
+  border: #FFBF00 0.5px solid;
+}
+
+
+.kt-header__topbar .kt-header__topbar-item .kt-header__topbar-wrapper .kt-badge {
+  height: 42px;
+  width: 42px;
+  background-clip: padding-box;
+  margin-left: 0.5px;
+  background: #646464;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+/* COLOR DE LOS INPUTS DE FORMULARIOS */
+.cabecera-info .dx-field-item-content.dx-field-item-content-location-right input[readonly] {
+  font-weight: bold;
+  color: #000000;
+  font-size: 11px;
+  text-transform: uppercase;
+  position: static;
+}
+
+/* COLOR VERDE AL SCROLLING DEL NAVEGADOR */
+.PrivateTabIndicator-colorPrimary-53 {
+  background-color: #FFBF00;
+}
+
+.PrivateTabIndicator-colorPrimary-26 {
+  background-color: #FFBF00;
+}
+
+/* COLOR DE LETRAS DE MENU */
+@media (min-width: 1025px) {
+  .kt-header-menu .kt-menu__nav>.kt-menu__item .kt-menu__submenu>.kt-menu__subnav>.kt-menu__item.kt-menu__item--here>.kt-menu__link .kt-menu__link-text {
+    color: #000000;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1025px) {
+  .kt-header-menu .kt-menu__nav>.kt-menu__item .kt-menu__submenu>.kt-menu__subnav>.kt-menu__item.kt-menu__item--here>.kt-menu__link .kt-menu__link-icon {
+    color: #000000;
+  }
+}
+
+/* FONDO DE IMAGEN HEADER- WEB Y ADMIN */
+ .content_login_ {
+  background-size: 100%;
+  background-image: url(/template_01/assets/images/sider/ipersonnel_sider.jpg) !important;
+  /* background: '#000000 !important' */
+}  
+
+/* POSICIONAMIENTO DEL TEXTO SLIDER */
+.banner-section .content-outer {
+  position: relative;
+  top: 0;
+  float: right;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: unset;
+  display: table;
+  vertical-align: middle;
+}
+
+/* ENCUADRE DEL TEXTO EN EL SLIDER: min-height: unset; */
+.banner-section .content-box {
+  position: relative;
+  padding: 0 15px 10px;
+  min-height: unset;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* PINTADO DEL BURGER DEL MOVIL */
+@media (max-width: 1024px) {
+  .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__toolbar-toggler span {
+    background: white;
+  }
+
+  .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__toolbar-toggler span::before,
+  .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__toolbar-toggler span::after {
+    background: white;
+  }
+
+  .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__toolbar-toggler:hover span {
+    background: #ffffff;
+  }
+
+  .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__toolbar-toggler:hover span::before,
+  .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__toolbar-toggler:hover span::after {
+    background: #ffffff;
+  }
+
+
+  /* OCULTA EL NOMBRE DEL USUARIO - HEADER MOVIL */
+  .text-right {
+    text-align: right !important;
+    display: none;
+  }
+
+  /* IMAGEN AL HEADER MOVIL */
+  @media (max-width: 1024px) {
+    .kt-header-mobile {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px;
+      height: 60px;
+      min-height: 60px;
+      background-color: #000000 !important;
+      /* background-image: url(/template_01/assets/images/header/ipersonnel_header.png) !important; */
+      /* box-shadow: 0px 1px 9px -3px rgb(0 0 0 / 20%); */
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  /* FONDO BLANCO AL HEADER MOVIL */
+  .kt-header__top {
+    background: #f9f9fc !important;
+  }
+
+}
+
+/* ALINEANDO LOD BOTONES DEL MODAL */
+.modal-body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  width: 100%;
+  padding: 24px;
+  background: var(--white);
+  transform: unset !important;
+  transition: transform 220ms cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+/* COLOR DEL BOTON FOCUSED AL ACTIVARLO  */
+.dx-button-mode-contained.dx-button-default.dx-state-focused {
+  background-color: #000000;
+  border: 1px solid #FFBF00;
+}
+
+/* COLOR DEL LOGIN HIBERNADO  */
+.page-lock .lock-box .lock-img section {
+  background: #000000 !important;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* ******************LOGIN BASE **************** */
+/* .MuiInputBase-root {
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: unset !important;
+  font-weight: 400;
+} 
+*/
+
+.MuiFormLabel-root {
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* .MuiFormControl-root {
+  display: flex;
+  align-items: center;
+  margin: auto !important;
+  padding-bottom: 10px !important;
+}
+
+.MuiInputLabel-outlined, .MuiInputLabel-shrink {
+  display: contents;
+  color: white;
+  align-self: flex-start;
+} */
+
+/* TAMAÑO DE FUENTE DEL LABEL LOGIN */
+.inputLabel {
+  position: inherit !important;
+  color: white !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  display: flex !important;
+  line-height: 24px !important;
+  letter-spacing: 0.75px !important;
+}
+
+/* ALINEAR EL LOGIN */
+.clsLoginFormUsuario {
+  place-content: space-evenly;
+}
+
+/* TAMAÑO DE FUENTE DEL LOGIN */
+.clsLoginFormUsuario * > input {
+  font-size: 13px;   /* --14pxjorge */
+}
+
+/* ============ PARA EL LOGIN : SELECCIONAR ========= */
+.inputLabelSubTitle {
+  position: inherit !important;
+  color: #FFBF00 !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  display: flex !important;
+  line-height: 24px !important;
+  letter-spacing: 0.75px !important;
+  margin-bottom: 13px;
+}
+
+/* :::::::::INFORMACION DE LA MATRIZ DE RIESGO ::::::::: */
+.container__ {
+  flex-direction: column;
+  height: unset;
+  border-radius: 24px;
+  padding: 24px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: none !important;
+}
+
+/* DivTable.com */
+.divTable {
+  display: table;
+  width: 100%;
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+}
+
+.divTableCell,
+.divTableHead {
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 3px 10px;
+}
+
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+.divTableBody {
+  display: table-row-group;
+}
+
+.divTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.divTableHead {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.divTableHead,
+.divTableCell {
+  border: 0.125em solid #000000;
+  line-height: 1.5;
+  padding: 0.75em;
+  text-align: left;
+}
+
+/* Stack rows vertically on small screens */
+@media (max-width: 30em) {
+
+  /* Hide column labels */
+  .divTableHeading>.divTableRow {
+    position: absolute;
+    top: -9999em;
+    left: -9999em;
+  }
+
+  .divTableRow {
+    border: 0.125em solid #000000;
+    border-bottom: 0;
+  }
+
+  /* Leave a space between table rows */
+  .divTableRow+.divTableRow {
+    margin-top: 1.5em;
+  }
+
+  /* Get table cells to act like rows */
+  .divTableRow,
+  .divTableCell {
+    display: block;
+  }
+
+  .divTableCell {
+    border: none;
+    border-bottom: 0.125em solid #000000;
+    /* Leave a space for data labels */
+    padding-left: 50%;
+  }
+
+  /* Add data labels */
+  .divTableCell:before {
+    content: attr(data-label);
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-left: -100%;
+    width: 100%;
+  }
+}
+
+/* Stack labels vertically on smaller screens */
+@media (max-width: 20em) {
+  .divTableCell {
+    padding-left: 0.75em;
+  }
+
+  .divTableCell:before {
+    display: block;
+    margin-bottom: 0.75em;
+    margin-left: 0;
+  }
+}
+
+/* ::::::::::::COLORES PARA INPUTS:::::::::::::: */
+input[name="NivelesSeveridad"] {
+  background: #FFBF00;
+}
+
+
+/* ::::::::::::BOTON AGREGAR EN MATRIZ RIESGO:::::::::::::: */
+.plus {
+  display: block;
+  height: 0.6em;
+  width: 0.6em;
+  font-size: 50px;
+  text-align: center;
+  line-height: 0.1em;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  background-color: #000000;
+
+}
+
+.plus::before {
+  display: block;
+  content: '+';
+  font-size: 30px;
+}
+
+/* :::::::::::::::::::::::::::::::: NUEVAS STYLES : 2 ::::::::::::::::::::::::::::::::::::::: */
+
+/* ::::::::::::::: HEADER ESTILOS DE LA WEB::::::::::::::::::::: */
+.navbarSupported-right-menu {
+  padding-left: 0px;
+  padding-top: 0px;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  width: 60px !important;
+  height: 40px;
+}
+
+.css_title_idioma {
+  margin-right: 10px;
+  margin-top: 17px;
+  font-weight: bold;
+  text-align: right;
+  position: relative;
+  color: #FFF;
+  font-size: 16px; /*--14pxjorge*/
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.15px;
+}
+
+.clsPopover div.popover {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+  width: 300px;
+  margin-top: 10px;
+}
+
+.clsPopover div.popover {
+  background-color: rgb(255 255 255 / 0%) !important;
+  border-color: rgb(255 255 255 / 0%) !important;
+  width: 300px;
+}
+
+.popover .arrow {
+  position: absolute;
+  display: block;
+  width: 1rem;
+  height: 0.5rem;
+  margin: 12px 3px !important;
+}
+
+/* .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+width: 100%;
+padding-right: inherit !important;
+padding-left: inherit !important;
+margin-right: auto;
+margin-left: auto;
+} */
+/* :::::::::::::::::::: LOGIN DE INGRESO  :::::::::::::: */
+.kt-login__body {
+  text-align: center;
+  height: calc(100vh - 140px);
+  margin-top: -6rem;
+  /* margin-right: 13.2rem; */
+}
+
+.kt-login__form {
+  height: 100%;
+  display: contents;
+  align-items: center;
+}
+
+.kt-login__title {
+  position: inherit;
+  width: 344px;
+  margin: 0 auto;
+  text-align: initial;
+  color: #F9F9FA;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+
+}
+
+.kt-login__title p {
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+.makeStyles-root-2 {
+  /* text-align: center; */
+  display: grid;
+  width: 100%;
+}
+
+.forgotPasswordForm {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#olvido-contrasenia-ancla {
+  display: block;
+  margin: 9px;
+  color: #FFBF00;
+  font-weight: bold;
+}
+
+.kt-login__actions {
+  text-align: center;
+  display: inline-grid;
+  /* display: inline-block; */
+}
+
+.kt-login__actions_enviar {
+  text-align: center;
+  /* display: inline-grid; */
+  display: inline-block;
+}
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 18px !important;
+  padding-left: 16px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* :::::::::::::::::::::::::: MUESTRA EL SQLIDER IMAGEN :::::::::::::::::::::::: */
+.content-image-gallery {
+  width: 100%;
+  top: 0;
+  position: unset !important;
+  z-index: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFBF00;
+  background-image: linear-gradient(to right top, #00356f, #00437d, #00518b, #005f98, #006ea5, #397db1, #578dbe, #719dca, #9db3d8, #c3cae4, #e3e4f1, #ffffff);
+}
+
+/* :::::::::::::::::::::::::: AJUSTANDO EL HEDER DE OPCIONES MENU:::::::::::::::::::::::: */
+.popover-body {
+  padding: 1rem 0.25rem !important;
+  color: #74788d;
+}
+
+
+.makeStyles-principal-4 {
+  font-size: 13px !important;
+  align-items: center !important;
+  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Verdana, sans-serif !important;
+  border-radius: 2px 4px 4px 4px !important;
+  text-transform: uppercase !important;
+  background-color: #FFBF00 !important;
+}
+
+/* .MuiTab-textColorPrimary {
+  color: rgb(75 151 72) !important;
+}  */
+/* :::::::::::::::::::::::::: BOTON DEL LOGIN:::::::::::::::::::::::: */
+.MuiButtonBase-root i {
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+.MuiButton-root {
+  text-transform: none !important;
+  height: 48px;
+  color: #141516;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.20);
+}
+
+.page-lock .lock-box .lock-pwd {
+  background: #010101;
+  width: 56%;
+  float: right;
+  height: 70px;
+  line-height: 50px;
+  padding: 13px 90px;
+  margin-top: 50px;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  color: #FFBF00;
+}
+
+.page-lock .lock-box .lock-user {
+  background: #010101;
+  width: 40%;
+  float: left;
+  height: 70px;
+  line-height: 50px;
+  margin-top: 50px;
+  padding: 8px 20px;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  color: #FFBF00;
+  font-weight: 800;
+}
+
+.page-lock .lock-box .lock-img section span {
+  font-weight: bold;
+  margin: auto;
+  font-size: 4rem;
+  bottom: 3px;
+  position: relative;
+  color: #ffffff;
+
+}
+/* :::::::::::::::::::::::::: ALINEAMIENTO DE HIBERNACION DE LOGIN : EYEE ::::::::::::::::::::: */
+.alinear_enter_eyee {
+  display: flex;
+}
+.alinear_enter_eyee_espacio {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.page-lock .lock-box .lock-pwd input {
+  width: 100px;
+  height: 38px;
+  color: #555555;
+  border: 0;
+  border-radius: 12px;
+}
+
+.page-lock .lock-box .lock-pwd .btn-submit {
+  position: inherit;
+  top: 60%;
+  right: 20px;
+  padding-left: 10px;
+}
+
+/* ::::::::::::::::::: ICONOS DE OPCIONES ::::::::::::::::::: */
+.icon-acreditacion {
+  background-image: url(/media/icons.app/acreditacion.png);
+}
+
+.navbarSupported-center {
+  font-weight: bold;
+  font-family: "Roboto", Sans-serif;
+  width: 250px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 23px;
+  color: white;
+  font-size: 20px;
+  text-shadow: rgb(94 113 113) 2px 0px 0px, rgb(94 113 113) 1.75517px 0.958851px 0px, rgb(94 113 113) 1.0806px 1.68294px 0px, rgb(94 113 113) 0.141474px 1.99499px 0px, rgb(94 113 113) -0.832294px 1.81859px 0px, rgb(94 113 113) -1.60229px 1.19694px 0px, rgb(94 113 113) -1.97998px 0.28224px 0px, rgb(94 113 113) -1.87291px -0.701566px 0px, rgb(94 113 113) -1.30729px -1.5136px 0px, rgb(94 113 113) -0.421592px -1.95506px 0px, rgb(94 113 113) 0.567324px -1.91785px 0px, rgb(94 113 113) 1.41734px -1.41108px 0px, rgb(94 113 113) 1.92034px -0.558831px 0px;
+}
+
+/* :::::::::::::::::::::: MENU ADMIN MOVIL :::::::::::::::::::::::::::: */
+@media (max-width: 1024px)
+{
+  .kt-header-menu-mobile .kt-menu__nav > .kt-menu__item {
+    position: relative;
+    margin: 0;
+    background-color: #000000;
+}
+
+.kt-header-menu-mobile .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-header-menu-mobile .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link {
+  background-color: #000000;
+}
+.kt-header-menu-mobile .kt-menu__nav > .kt-menu__item > .kt-menu__submenu .kt-menu__subnav > .kt-menu__item > .kt-menu__link {
+  padding: 0 30px;
+  padding-left: 45px;
+  background: white;
+}
+
+.kt-header-menu-mobile .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__heading, .kt-header-menu-mobile .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__link {
+  background-color: #646464;
+}
+
+.kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__toolbar-topbar-toggler i {
+  font-size: 1.6rem;
+  line-height: 0;
+  color: rgb(255 255 255);
+}
+.kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__toolbar-topbar-toggler.kt-header-mobile__toolbar-topbar-toggler--active i, .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__toolbar-topbar-toggler:hover i {
+  color: rgb(255 255 255);
+}
+
+}
+
+.kt-font-success{
+   color: #FFBF00 !important;
+}
+
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: black  !important;
+}
+
+.MuiTab-labelIcon {
+    min-height: 55px !important;
+    padding-top: 9px;
+}
+
+
+/* Calendar Justificacion Persona PopOver - Se desactivo esta opcion LSF*/
+ /* .dx-tooltip-wrapper .dx-overlay-content .dx-popup-content {
+  max-height: 450px !important;
+  height: 400px !important;
+}
+
+ .dx-scheduler-appointment-tooltip-wrapper>div.dx-overlay-content {
+  max-height: 450px !important;
+  height: 400px !important;
+}
+
+ .dx-scrollable-wrapper .dx-scrollable-content .dx-list-item-content {
+
+  max-width: 550px !important;
+  width: 500px !important;
+
+} */ 
+
+/* Calendar Horario Persona  Original - Se desactivo esta opcion LSF*/
+/* .dx-scheduler-appointment-tooltip-wrapper>div.dx-overlay-content {
+  max-height: 126.5px !important;
+  height: 350px !important;
+} */
+
+
+/*Aclarar Marco de la leyenda - Edicion de Justificiacion*/
+#divDetailJustification fieldset.scheduler-border {
+  border: 1px groove rgb(0 0 0 / 20%) !important; 
+} 
+#divDetailJustification legend.scheduler-border h5 {
+  color: rgba(0, 0, 0, 0.70); 
+} 
+
+/*Mostrar y ajustar el nombre de una columna al tamaño - Reporte Calculo Asistencia*/
+#divGridCalculoAsistencia .dx-datagrid-nowrap .dx-header-row > td > .dx-datagrid-text-content {
+  white-space: normal; /* Antes era "nowrap" */
+}
+
+/*Disminuir el margen de las justificaciones asociadas - Resumen Justificaciones e Incidencias PopOver*/
+#divPopOver .dx-datagrid-rowsview .dx-row > .dx-master-detail-cell {
+  padding: 15px;
+}
+
+/*Mostrar la barra scroll vertical - Resumen de Incidencias y Proceso Calculo Asistencia*/
+div.dx-overlay-content.dx-popup-normal.dx-resizable{
+  overflow: auto;
+}
+ 
+/* ================= START MENU RESPONSIVE MOVIL ==================*/
+.kt-header__topbar {
+  display: flex;
+  align-items: stretch;
+  padding: 0;
+  align-content: flex-end;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif;
+  justify-content: center;
+}
+
+.kt-header-profileUser{
+  display: flex;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+  padding: 0px 0.55rem 0px 0px;
+  /*    width: 116vh;*/
+  white-space: nowrap;
+}
+
+/* ================= END ==================*/
+
+
+/* Estilo para el switch de Auditoria - Módulo de Trabajadores Horario */ 
+.container_extra {
+  width: 100%; 
+  /* flex-direction: column;   */
+  /* height: unset; */
+  border-radius: 250px;
+  padding: 24px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+
+.recortar_texto{
+  width: 79px;
+  /* word-wrap: break-word; */
+  word-break: break-all;
+  height: auto;
+}
+
+/*Desactivar estilo para pasar siguiente renglon del excedente - Módulo de Trabajadores Incidencias Asistencia */
+ 
+div.dx-item .dx-list-item #DivEventoDetalle{ 
+  white-space: initial; 
+} 
+div.dx-popup-content .dx-tooltip-wrapper .dx-overlay-content .dx-popup-content #DivEventoDetalle{ 
+  white-space: initial; 
+}
+ .dx-list-item-content #DivEventoDetalle{ 
+  white-space: initial; 
+}  
+ 
+ /*Corregir el color Negro en el estilo de la fecha de inicio y fin - Módulo de Asistencia Persona Marcación/Reporte Tiempo Adicional*/
+.dx-widget .dx-calendar-navigator a.dx-button-mode-contained{
+  background-color: transparent;  
+}
+
+
+/*Corregir Color negro para el estilo del boton Cerrar - Módulo de Asistencia Persona Horario*/ 
+.dx-toolbar-items-container .dx-toolbar-after .dx-button-content span.dx-button-text{ 
+  color: rgb(255, 255, 255); 
+}
+
+/* ============================= RESPONSIVE EN WEB HOME SLIDER ================================ */
+/* @media (max-width: 991.98px) { 
+  .owl-stage{
+    transition: all 0s ease 0s;
+    width: unset !important;
+    transform: unset !important;
+  }
+ 
+} */
+
+
+ /* ============== CAMBIO DE ESTILO DEL IDIOMA ============= */
+.clsMenuIdioma {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 40px;
+  cursor: pointer;
+  background: #272727;
+  color: white;
+  font-weight: bold;
+}
+
+.clsMenuIdiomaBox {
+  width: 0px;
+  height: 7px;
+}
+.clsMenuIdiomaIcon {
+  width: 8px;
+  height: 8px;
+  border-top: 0.15rem solid #ffffff;
+  border-right: 0.15rem solid #ffffff;
+  transition: all 0.3s ease-in-out;
+  transform: rotate(135deg);
+}
+
+/* ::::::::::::::::::: POSICIONAR LAS LETRAS DEL IDIOMA  ::::::::::::::::::: */
+.kt-nav .kt-nav__item > .kt-nav__link .kt-nav__link-text {
+  position: relative;
+  flex-grow: 1;
+  font-size: 1rem;
+  color: #595d6e;
+  font-weight: 400;
+  margin-left: 20px;
+}
+/* ============= EL LARGO DE LA CAJA DEL IDIOMA ============== */
+.css_body_idioma * > .dropdown-menu {
+  text-transform: uppercase;
+  border-radius: 0;
+  min-width: 10rem !important;
+  padding: 0 !important;
+  top: 33px !important;
+  transform: unset !important;
+  background: #454545;
+}
+
+.css_body_idioma * > .kt-nav {
+  padding: 0px 0 !important;
+}
+
+.css_body_idioma * > .kt-nav__link-text {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+
+.css_body_idioma * >.kt-nav__link {
+  background-color: #454545 !important;
+}
+
+/* ===============LOGIN - DESCRIPCION DE RECUPERACION DE CONTRASEÑA ================== */
+.clsLoginForgotPassword {
+  position: relative;
+  text-align: left;
+  color: #F9F9FA;
+  letter-spacing: 0.75px;
+  margin-left: 1.2rem;
+}
+
+/* APLICAR ESTILO AL BOTON ENVIAR, RECUPERAR CONTRASEÑA */
+.classCerrarSesionForgot{
+  padding: 0.5rem 1rem;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.25px !important;
+  background-color: #FFBF00 !important;
+  color: #141516 !important;
+  height: 46px !important;
+  width: 100px !important;
+  border-radius: 12px !important;
+  box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.12), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 3px 5px -1px rgba(0, 0, 0, 0.20);
+}
+
+/* COLOR DE LOS INPUTS PARA RECUPERACION DE CONTRASEÑA */
+.clsLoginFormUsuario * > .MuiInputBase-root {
+  background-color: white;
+  display: flex;
+  width: 26rem;
+  border-radius: 16px !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+/* ============== CLASE PARA PINTAR EL LINK DE REENVIAR CODIGO Y PARRAFO ============ */
+.clsLinkColorLoginCode {
+  position: relative;
+  color: #FFBF00 !important;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.clsParrafoColorLoginCode{
+  position: relative;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 1rem;
+}

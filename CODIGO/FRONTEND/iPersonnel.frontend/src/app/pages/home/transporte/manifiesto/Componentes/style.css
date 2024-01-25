@@ -1,0 +1,124 @@
+.rect {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  height: 100%;
+  color: #fff;
+}
+
+.demo-light {
+  background: rgba(245, 229, 166, 0.5)
+}
+
+.demo-red {
+  background: rgba(189, 3, 3, 0.952);
+  border: 1px solid lightgray;
+}
+
+.demo-dark {
+  background: rgba(6, 221, 24, 0.856);
+  border: 1px solid lightgray;
+}
+
+.demo-dark.header {
+  background: rgba(243, 158, 108, 0.5);
+}
+
+.demo-dark.footer {
+  background: rgba(123, 155, 207, 0.5);
+}
+
+.small {
+  height: 50px;
+  border: 1px solid rgb(4, 26, 231);
+}
+
+#employee {
+  margin: 20px 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+#employee > p {
+  padding: 10px 20px;
+  margin: 0;
+  background-color: tomato;
+}
+
+#titulo {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  margin: 0;
+}
+
+#tables {
+  display: table;
+  border: 1;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+#leftt{
+  padding-left: 9px;
+}
+#buttonGroup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#buttonGroup > .dx-button {
+  margin: 0 20px;
+}
+.btnImprimir
+{
+display:"none";
+}
+@page 
+  {
+      size:  100%;   /* auto es el valor inicial */
+      margin: 0mm;  /* afecta el margen en la configuración de impresión */
+  }
+
+  @media print{
+      .oculto-impresion, .oculto-impresion *{
+        display: none !important;
+      }
+    }
+    #circulo {
+      width: 3.1rem;
+      height: 3.1rem;
+      background: red;  
+  
+  }
+  #circulo > p {
+      font-family: sans-serif;
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+  }
+  #center {
+      margin-left: "auto";
+      margin-right: "auto"
+    }
+
+    caption {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      color: #74788d;
+      text-align: center;
+      caption-side: bottom;
+  }
+  .kt-portlet .kt-portlet__body {
+      display: flex;
+      flex-direction: column;
+      /* padding: 25px; */
+      /* border-radius: 4px; */
+  }

@@ -1,0 +1,70 @@
+/* =============================================================================== */
+/* LayoutView                                         (selector: .vcg-lyv        ) */
+/* LayoutView ViewContainer                           (selector: .vcg-lyv-vc     ) */
+/* LayoutView ViewContainer Header                    (selector: .vcg-lyv-vc-h   ) */
+/* LayoutView ViewContainer ContentContainer          (selector: .vcg-lyv-vc-cc  ) */
+/* LayoutView ViewContainer ContentContainer Left     (selector: .vcg-lyv-vc-cc-l) */
+/* LayoutView ViewContainer ContentContainer Center   (selector: .vcg-lyv-vc-cc-c) */
+/* LayoutView ViewContainer ContentContainer Right    (selector: .vcg-lyv-vc-cc-r) */
+/* LayoutView ViewContainer Footer                    (selector: .vcg-lyv-vc-f   ) */
+/* =============================================================================== */
+.vcg-lyv {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.vcg-lyv > .row {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.vcg-lyv > .row > .vcg-lyv-vc {
+  width: 100%;
+}
+.vcg-lyv > .row > .vcg-lyv-vc > .row > .vcg-lyv-vc-h { 
+  padding: 5px; 
+  border-bottom: 1px solid rgb(185 185 185 / 12%); 
+}
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc { 
+  padding: 5px; 
+}
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc > .vcg-lyv-vc-cc-l { 
+  border-right: 1px solid rgb(103 103 103 / 12%);
+}
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc > .vcg-lyv-vc-cc-r { 
+  border-left: 1px solid rgb(103 103 103 / 12%); 
+}
+.vcg-lyv > .row > .vcg-lyv-vc > .row > .vcg-lyv-vc-f { 
+  padding: 5px; border-top: 1px solid rgb(185 185 185 / 12%); 
+}
+
+
+
+/* 
+##############################
+######### Para Debug #########
+##############################
+.vcg-lyv { width: 100%; padding-left: 0; padding-right: 0; }
+.vcg-lyv > .row { margin-right: 0.5rem; margin-left: 0.5rem; }
+.vcg-lyv > .row > .vcg-lyv-vc { width: 100%; }
+.vcg-lyv > .row > .vcg-lyv-vc > .row > .vcg-lyv-vc-h { border: solid 1px red; padding: 5px; }
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc { border: solid 1px green; padding: 5px; }
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc > .vcg-lyv-vc-cc-l { border: solid 1px yellow; border-right: solid 3px orange; }
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc > .vcg-lyv-vc-cc-c { border: solid 1px black; border-left: none; border-right: none; }
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc > .vcg-lyv-vc-cc-r { border: solid 1px brown; border-left: solid 3px orange; }
+.vcg-lyv > .row > .vcg-lyv-vc > .row > .vcg-lyv-vc-f { border: solid 1px blue; padding: 5px; }  
+##############################
+*/
+
+
+
+/*
+.vcg-lyv
+.vcg-lyv > .row
+.vcg-lyv > .row > .vcg-lyv-vc {  }
+.vcg-lyv > .row > .vcg-lyv-vc > .row > .vcg-lyv-vc-h {  }
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc {  }
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc > .vcg-lyv-vc-cc-l {  }
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc > .vcg-lyv-vc-cc-c {  }
+.vcg-lyv > .row > .vcg-lyv-vc > .row.vcg-lyv-vc-cc > .vcg-lyv-vc-cc-r {  }
+.vcg-lyv > .row > .vcg-lyv-vc > .row > .vcg-lyv-vc-f {  } 
+*/

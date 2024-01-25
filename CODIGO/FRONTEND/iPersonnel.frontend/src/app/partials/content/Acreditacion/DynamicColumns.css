@@ -1,0 +1,118 @@
+.secundario {
+  background-color: #bbd2e2 !important;
+  border-radius: 2px 3.5px 3.5px 3.5px !important;
+  font-size: 11px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  min-width: 10px !important;
+  color: #4d4d4d !important;
+  text-transform: uppercase !important;
+  box-shadow: 0px 0px 0px -1px rgba(0, 0, 0, 0.1),
+    1px 1px 1px -1px rgba(0, 0, 0, 0), 0px 1px 0px 0px rgba(0, 0, 0, 0.11) !important;
+}
+
+.toolbar {
+  font-size: 12px !important;
+  min-height: 10px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+}
+
+.title {
+  font-size: 12px !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Verdana, sans-serif !important;
+  margin: 5px !important;
+}
+
+div.clsTextExtenso2 textarea {
+  height: 52px;
+  text-transform: uppercase;
+}
+
+div.clsFondo textarea {
+  background-color: #b4f8c8;
+}
+
+/* //================= ESTILOS DE LOS 3 ELEMENTOS: ICON DETALLE, ESTADOS Y DESCARGA ============= */
+.icon_estado_grid {
+  margin-right: 3px;
+  margin-top: 28px;
+  color: black;
+}
+
+@media (max-width: 1370.98px) { 
+  .clsResponsive_>.dx-field-item-content>.dx-form-group>.dx-form-group-content>.dx-layout-manager>
+  .dx-widget>.dx-box-flex>.dx-item >.dx-item-content>.dx-item:nth-child(3){
+    flex: 7 1 0px !important;
+  }
+}
+/* //============================================================================ */
+
+.input_pendiente {
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+
+.color_Azul {
+  background: #005389;
+}
+
+.color_Amarillo {
+  background: #ff7f2a;
+}
+
+.color_Rojo {
+  background: #970e00;
+}
+
+/**********************************/
+.btn-observado {
+  background: #ffd400 !important;
+  color: black !important;
+}
+
+.btn-pendiente {
+  background: #ff7f2a !important;
+  color: white !important;
+}
+
+.btn-rechazado {
+  background: #970e00 !important;
+  color: white !important;
+}
+
+.btn-aprobado {
+  background: green !important;
+  color: white !important;
+}
+
+/*
+.btn-eliminado {
+  color: #00c7ea;
+}
+
+.btn-incompleto {
+  color: #68747c;
+}*/
+/**********************************/
+
+.borderbotton {
+  /* border-bottom: #007cb7 1px solid; */
+  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+/* .grupo_autorizador {
+  background-color: white;
+} */
+
+/* .grupo_solicitante {
+  background-color: #ebebeb;
+} */
+
+div.clsFondoEdit input {
+  background-color: #b4f8c8;
+}

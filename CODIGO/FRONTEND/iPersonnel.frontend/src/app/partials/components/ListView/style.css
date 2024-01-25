@@ -1,0 +1,47 @@
+/* ====================================================================== */
+/* ListView       (selector: .vcg-ltv)                    */
+/* Row Header     (selector: .vcg-ltv-row-h)              */
+/* Header         (selector: .vcg-ltv-row-h .vcg-ltv-hs)  */
+/* Row ViewItem   (selector: .vcg-ltv-row-vi)             */
+/* ViewItem       (selector: .vcg-ltv-vi)                 */
+/* Row Footer     (selector: .vcg-ltv-row-f)              */
+/* Footer         (selector: .vcg-ltv-row-h .vcg-ltv-hs)  */
+/* ====================================================================== */
+.vcg-ltv {
+  border: 2px solid rgb(185 185 185 / 12%);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.vcg-ltv > div.row > div > .vcg-ltv-hs {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.vcg-ltv > .vcg-ltv-row-h > div > .vcg-ltv-hs {
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(185 185 185 / 12%);
+}
+.vcg-ltv > .vcg-ltv-row-f > div > .vcg-ltv-hs {
+  padding-top: 10px;
+  border-top: 2px solid rgb(185 185 185 / 12%);
+}
+.vcg-ltv > .vcg-ltv-row-vi > div > .vcg-ltv-vi {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.12);
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.vcg-ltv > .vcg-ltv-row-vi:first-child > div > .vcg-ltv-vi {
+  padding-top: 5px;
+}
+.vcg-ltv > .vcg-ltv-row-h + .vcg-ltv-row-vi > div > .vcg-ltv-vi {
+  padding-top: 10px;
+}
+.vcg-ltv > .vcg-ltv-row-vi:last-child > div > .vcg-ltv-vi, .vcg-ltv > .vcg-ltv-row-vi.last > div > .vcg-ltv-vi {
+  border-bottom: none;
+  padding-bottom: 5px;
+}

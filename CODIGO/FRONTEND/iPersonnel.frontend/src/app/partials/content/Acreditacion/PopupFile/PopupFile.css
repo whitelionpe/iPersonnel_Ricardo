@@ -1,0 +1,61 @@
+.spinner_file {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  width: 15px !important;
+  height: 15px;
+  border-radius: 50%;
+  border-left-color: green;
+
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.file-ok {
+  color: green;
+  font-size: 15px;
+}
+
+.file-error {
+  color: red;
+  font-size: 15px;
+}
+
+.barra-titulo {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.texto-file {
+  color: #48465b;
+  font-size: 12px;
+}
+
+.file-boton-cerrar {
+  width: 150px !important;
+  margin: 0 auto;
+  bottom: 0;
+  display: flex;
+  /* position: absolute; */
+  margin-bottom: 15px;
+}
+
+.file-barra-estados-up {
+  max-height: 135px;
+  overflow-y: auto;
+}
+
+.file-boton-cerrar-padre {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+/* ====================================================================== */
+/* MultiViewItem  (selector: .vcg-mvi)                    */
+/* Row Header     (selector: .vcg-mvi-row-h)              */
+/* Header         (selector: .vcg-mvi-row-h .vcg-mvi-hs)  */
+/* Row ViewItem   (selector: .vcg-mvi-row-vi)             */
+/* Row Footer     (selector: .vcg-mvi-row-f)              */
+/* Footer         (selector: .vcg-mvi-row-h .vcg-mvi-hs)  */
+/* ====================================================================== */
+.vcg-mvi {
+  /* border: 2px solid rgb(185 185 185 / 12%); */
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  padding-left: 0;
+  padding-right: 0;
+}
+.vcg-mvi .vcg-mvi-hs {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.vcg-mvi > .vcg-mvi-row-h > div > .vcg-mvi-hs {
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(185 185 185 / 12%);
+}
+.vcg-mvi > .vcg-mvi-row-f > div > .vcg-mvi-hs {
+  padding-top: 10px;
+  border-top: 2px solid rgb(185 185 185 / 12%);
+}
+.vcg-mvi > .vcg-mvi-row-vi {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

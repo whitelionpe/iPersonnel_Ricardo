@@ -1,0 +1,13 @@
+// 3rd-party Plugins
+@import "~highlight.js/styles/googlecode.css";
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+
+// Theme Styles
+@import "./_metronic/_assets/sass/style.react.scss";
+
+// Default Layout Skins
+//JDL-2020-10-30
+@import url('../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css');
+@import url('../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.light.css');
+@import url('../node_modules/@devexpress/analytics-core/dist/css/dx-querybuilder.css');
+@import url('../node_modules/devexpress-dashboard/dist/css/dx-dashboard.light.css');

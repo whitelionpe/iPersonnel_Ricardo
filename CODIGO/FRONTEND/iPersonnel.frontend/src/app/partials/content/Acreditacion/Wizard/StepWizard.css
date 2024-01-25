@@ -1,0 +1,104 @@
+.panel-visible {
+  display: inherit;
+}
+
+.panel-hidden {
+  display: none !important;
+}
+
+.step_icon_selected {
+  color: #ffbf00 !important;
+}
+
+span.step_icon_selected {
+  color: black !important;
+  font-weight: bold;
+}
+
+.step_footer {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-top: solid;
+  border-top-color: rgba(128, 128, 128, 0.5);
+  border-top-width: 1px;
+  padding-top: 10px;
+}
+
+.btn_wizard_upload {
+  margin-right: 5px;
+}
+
+.btn_upload_not_file {
+  background-color: #91919f !important;
+}
+
+.btn_upload_file {
+  background-color: #006393 !important;
+}
+
+#btn-step-next .dx-icon {
+  float: right;
+  padding-left: 10px;
+}
+
+#btn-step-next,
+#btn-step-back {
+  text-transform: uppercase;
+  width: 120px;
+  font-size: 11px;
+  display: inline-table;
+  padding: 3px 0px !important;
+  /* padding-top: 0px !important;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px; */
+}
+
+#btn-step-back.dx-state-disabled {
+  background-color: #bfbfbf !important;
+  color: white !important;
+  border: 2px #bfbfbf solid !important;
+  opacity: 1;
+}
+
+.MuiStepLabel-label {
+  font-size: 1rem;
+}
+
+.MuiStepIcon-text {
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+}
+
+.MuiStepIcon-root {
+  color: #bfbfbf;
+  display: block;
+  font-size: 2rem;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: #bfbfbf;
+  font-size: 2rem;
+}
+
+.MuiStepConnector-line {
+  border-color: black;
+}
+/************************************************/
+/******************* MEDIA **********************/
+/************************************************/
+
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+/************************************************/

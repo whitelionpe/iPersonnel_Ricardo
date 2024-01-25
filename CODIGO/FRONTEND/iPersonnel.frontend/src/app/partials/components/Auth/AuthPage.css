@@ -1,0 +1,1211 @@
+/*
+* ==========================================
+* HEADER NAVBAR
+* ==========================================
+*/
+.login-header-nav {
+  height: 50px;
+  top: 0;
+  position: fixed;
+  left: 0;
+  z-index: 100;
+  /* background-color: black; */
+  width: 100%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.login-navbar {
+  transition: all 0.4s;
+  /* height: 110px; */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+
+.login-navbar::before {
+  width: 25%;
+}
+
+.login-navbar {
+  width: 100%;
+  height: 100%;
+}
+
+#navbarSupportedContent {
+  /* background-color: rgba(13, 82, 141, 0.9); */
+  background-color: rgba(235, 233, 237, 0.9);
+  /* -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px); */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+#navbarSupportedContent img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  float: left;
+  padding-left: 30px;
+  padding-top: 5px;
+  margin-left: 0;
+}
+
+.navbarSupportedContent-blur {
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.navbarSupported-center {
+  font-weight: bold;
+  width: 250px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 20px;
+
+  text-shadow: rgb(94, 113, 113) 2px 0px 0px,
+    rgb(94, 113, 113) 1.75517px 0.958851px 0px,
+    rgb(94, 113, 113) 1.0806px 1.68294px 0px,
+    rgb(94, 113, 113) 0.141474px 1.99499px 0px,
+    rgb(94, 113, 113) -0.832294px 1.81859px 0px,
+    rgb(94, 113, 113) -1.60229px 1.19694px 0px,
+    rgb(94, 113, 113) -1.97998px 0.28224px 0px,
+    rgb(94, 113, 113) -1.87291px -0.701566px 0px,
+    rgb(94, 113, 113) -1.30729px -1.5136px 0px,
+    rgb(94, 113, 113) -0.421592px -1.95506px 0px,
+    rgb(94, 113, 113) 0.567324px -1.91785px 0px,
+    rgb(94, 113, 113) 1.41734px -1.41108px 0px,
+    rgb(94, 113, 113) 1.92034px -0.558831px 0px;
+}
+
+/*
+.navbarSupported-center:hover {
+   color: #ffd332;
+}*/
+
+.navbarSupported-right {
+  /* width: 300px; */
+  margin-right: 10px;
+  float: right;
+  display: contents;
+}
+
+.navbarSupported-right-menu {
+  /* color: black !important; */
+  /* color: rgba(255, 212, 3, 0.87) !important; */
+  /* font-weight: bold !important;
+  font-family: emoji !important; */
+  /* display: inline-flex; */
+  padding-left: 0px;
+  padding-top: 0px;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+
+  /*cursor: pointer;
+   border-color: white !important;
+  border-style: solid !important;
+  border: 2px;
+  border-radius: 5px; */
+  /*background-color: red;
+   transparent !important; background-color: rgba(128, 128, 128, 0.5) !important; */
+  /* background-color: rgba(255, 212, 3, 0.87) !important; */
+}
+
+/* .navbarSupported-right-menu:hover, */
+.navbarSupported-right-menu span:hover {
+  background-color: rgba(128, 128, 128, 0.4);
+  border-radius: 50%;
+}
+
+/*
+.navbarSupported-right-menu i {
+  width: 100%;
+  height: 100%;
+  font-size: 28px;
+   color: rgba(255, 212, 3, 0.87) !important;
+}*/
+
+/*.navbarSupported-right-menu span {
+   margin-top: 5px;
+  color: rgba(0, 0, 3, 0.87) !important;
+   margin-right: 10px;
+  font-size: 12px;
+
+  border-radius: 50%;
+}
+.navbarSupported-right-menu span span {
+  display: none;
+}*/
+
+/*******************************************************************
+********************************************************************
+*******************************************************************/
+
+/*
+* ==========================================
+* Layer Division
+* ==========================================
+*/
+
+#idFormUserDivision div.form-group div {
+  display: inline-flex;
+
+  background-color: white;
+  display: flex;
+  width: 26rem;
+  border-radius: 16px !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+#idFormUserDivision div.form-group input.MuiInputBase-input {
+  padding: 0px !important;
+  padding-left: 16px !important;
+  height: 56px;
+}
+
+/* ================ REDUCE LA ALTURA DEL LOGIN INPUT ================ */
+#idFormUserDivision div.form-group div.MuiOutlinedInput-input {
+  padding: 0px !important;
+  padding-left: 16px !important;
+  height: 47px;
+  align-items: center;
+  /* ACORTACION DE TEXTO */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 20.9rem;
+
+}
+
+#idFormUserDivision svg {
+  margin-right: 17px;
+}
+
+/*
+* ==========================================
+* IMAGE GALLERY
+* ==========================================
+*/
+.content-image-gallery {
+  width: 100%;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0082b5;
+  background-image: linear-gradient(to right top,
+      #00356f,
+      #00437d,
+      #00518b,
+      #005f98,
+      #006ea5,
+      #397db1,
+      #578dbe,
+      #719dca,
+      #9db3d8,
+      #c3cae4,
+      #e3e4f1,
+      #ffffff);
+}
+
+.image-gallery,
+.image-gallery div,
+.image-gallery div div {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-gallery-slide {
+  z-index: -1;
+}
+
+.image-gallery {
+  position: absolute !important;
+  width: 58%;
+  top: 0px;
+  right: 0px;
+  left: 42%;
+}
+
+.image-gallery-image {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: cover !important;
+
+  /* -webkit-transform: scale(1.3);
+  transform: scale(1.3); */
+}
+
+/* .image-gallery-image {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+} */
+
+.image-gallery-svg {
+  height: 30px !important;
+  width: 30px !important;
+  background-color: #ffbf00;
+  border-radius: 20px;
+  color: black;
+}
+
+.image-gallery-svg:hover {
+  background-color: #434445;
+
+  & * {
+    color: white;
+  }
+}
+
+.image-gallery-svg:active {
+  background-color: #FFD966 !important;
+
+  & * {
+    color: white;
+  }
+}
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+  padding: 49px 26px !important;
+  top: calc(100% - 133px) !important;
+}
+
+.img-logo-principal {
+  padding-left: 0px !important;
+}
+
+/*******************************************************************
+********************************************************************
+*******************************************************************/
+
+/*
+* ==========================================
+* AUTH FORM
+* ==========================================
+*/
+/* ::::::::::::::::::::::::COMENTAMOS EL FONDO DEL LOGIN BACKGROUND ::::::::::::::::::::::: */
+.auth-div-form-principal {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 310;
+  border: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.auth-div-form-blur {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  filter: blur(8px);
+}
+
+.auth-div-form-center-left {
+  background: white;
+  width: 27%;
+  /*  380 */
+  height: 415px;
+  position: absolute;
+  left: -50%;
+  right: 0;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-width: 1px;
+  /* border: solid;
+  border-color: rgba(128, 128, 128, 0.1);
+   */
+  margin-top: 3%;
+  background-image: url("https://image.freepik.com/foto-gratis/vista-posterior-medio-tiro-ingeniero-arquitecto-que-supervisa-construccion_23-2148233739.jpg");
+  background-repeat: no-repeat;
+  /* background-position: bottom; */
+}
+
+.auth-div-form-center {
+  background: white;
+  width: 345px;
+  /*  380 */
+  /* height: 415px; */
+  /* position: absolute; */
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-width: 1px;
+  /* border: solid; */
+  border-color: rgba(128, 128, 128, 0.1);
+  margin-top: 3%;
+}
+
+/*******************************************************************
+********************************************************************
+*******************************************************************/
+/*
+* ==========================================
+* IMAGES Z-INDEX
+* ==========================================
+*/
+
+/* @media (max-width: 1400px) {
+  .content-2personnel-img {
+    z-index: 250;
+    position: fixed;
+    left: 50px;
+    bottom: -100px;
+  }
+
+  .content-2personnel-img img {
+    width: 500px;
+  }
+} */
+.content-2personnel-txt h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.content-2personnel-txt {
+  z-index: 250;
+  right: 13%;
+  width: 40%;
+  bottom: 100px;
+  position: absolute;
+}
+
+.content-2personnel-content {
+  /* -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px); */
+  width: 100%;
+  height: 100%;
+  padding: 20px 50px 0px 20px;
+  /* background: rgba(128, 128, 128, 0.2); */
+}
+
+.content-2personnel-blur {
+  /* filter: blur(2px); */
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(128, 128, 128, 0.1); */
+  position: absolute;
+}
+
+.icon-app-menu {
+  /* padding-left: 0px;
+  padding-top: 0px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px; */
+  padding-left: 0px;
+  padding-top: 0px;
+  background-size: 55px;
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+}
+
+.MuiButtonBase-root i {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+/* .MuiButtonBase-root i:hover {
+  width: 30px;
+  height: 30px;
+
+  background-color: rgba(0, 0, 1, 0.2);
+  border-radius: 50%;
+
+  cursor: no-drop;
+}*/
+
+.navbarSupported-right-idioma {
+  color: white;
+  height: 40px;
+  width: 100px;
+  float: right;
+  /* display: flex; */
+  /* border: solid;
+  border-color: white; */
+  border-radius: 10px;
+  /* border: 1; */
+  padding: 5px 10px 5px 10px;
+  background-color: rgba(128, 128, 128, 0.7);
+  margin-right: 10px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05), inset 0 0 0 1px white;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05), inset 0 0 0 1px white;
+}
+
+.navbarSupported-right-idioma i {
+  width: 25px;
+  font-size: 25px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.navbarSupported-right-idioma div {
+  width: 25px;
+  margin-top: 1.5px;
+  float: right;
+  padding-right: 5px;
+}
+
+.navbarSupported-right-idioma img {
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+  width: 30px;
+  height: 20px !important;
+  object-fit: cover;
+}
+
+/*
+.navbarSupported-right-div-menu {
+  margin-right: 10px;
+} */
+
+.navbarSupported-left {
+  display: block;
+  margin: auto;
+  height: 40px;
+  float: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-left: 0;
+  background-image: url(/media/logos/logo_2personnel_652x288.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.auth-div-form-barra-logos {
+  height: 55px;
+  text-align: center;
+}
+
+.auth-div-form-barra-logos img.derecha {
+  height: 35px;
+  margin: auto;
+  /* float: right; */
+  /* padding-right: 10px;*/
+}
+
+.auth-div-form-barra-logos div.derecha {
+  height: 45px;
+  float: right;
+  padding-right: 10px;
+  display: grid;
+  /* text-align: center; */
+  width: 100px;
+}
+
+.auth-div-form-barra-logos img.logo2Personnel {
+  height: 55px;
+  /* padding-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 25px;*/
+  position: relative;
+}
+
+.auth-div-form-barra-logos span {
+  font-weight: bold;
+}
+
+.auth-div-form-barra-empresa {
+  /* width: 100%; */
+  /* height: 25px;
+  margin-top: 10px; */
+  text-align: center;
+}
+
+.auth-div-form-barra-empresa img {
+  /* margin: auto; */
+  left: 0;
+  right: 0;
+  height: 80px;
+  /* position: relative; */
+  margin-bottom: -3px;
+}
+
+#ToolTopAuthPage {
+  z-index: 500;
+}
+
+/*******************************************************************
+Ribbon.
+********************************************************************/
+.ribbon-wrapper {
+  width: 101%;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -10px;
+  /* top: 19%; */
+  left: -1px;
+}
+
+.ribbon-wrapper .ribbon {
+  /* font: bold 15px sans-serif;
+    color:#333;*/
+  text-align: center;
+  /* -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -o-transform:rotate(0deg); */
+  position: relative;
+  padding: 5px;
+  /*top:17px;
+    left:-30px;
+     width:120px; */
+  background-color: #5578eb;
+  color: #fff;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.ribbon-wrapper .ribbon .nameApp {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+/*******************************************************************
+********************************************************************/
+
+.custom-item-menu {
+  text-align: center;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  width: 96px !important;
+  cursor: pointer;
+}
+
+.custom-item-menu-img {
+  margin: 8px;
+}
+
+.custom-item-menu:hover {
+  background-color: rgba(128, 128, 128, 0.35);
+  border-radius: 5px;
+}
+
+.custom-item-menu p {
+  font-size: 12px;
+  color: black;
+  text-transform: capitalize !important;
+  line-height: 1;
+}
+
+.css_logo_title {
+  font-weight: normal;
+
+  /*  padding-top: 5px;
+  font-size: 8.5px;
+   */
+}
+
+/* ICONS */
+
+.icon-menu {
+  background-image: url(/media/icons.app/2PERSONNEL-LOGOCUADRADO.png);
+}
+
+.icon-2personnel {
+  /* background-image: url(/media/logos/logo_2personnel_652x288.png); */
+  background-image: url(/media/icons.app/2PERSONNEL.png);
+  /* background-position-y: 15px;
+  background-size: 35px 30px; */
+}
+
+.icon-acreditacion {
+  background-image: url(/media/icons.app/acreditacion.png);
+}
+
+.icon-visitas {
+  background-image: url(/media/icons.app/acceso.png);
+}
+
+.icon-identificacion {
+  background-image: url(/media/icons.app/identificacion.png);
+}
+
+.icon-acceso {
+  background-image: url(/media/icons.app/acceso.png);
+}
+
+.icon-asistencia {
+  background-image: url(/media/icons.app/asistencia.png);
+}
+
+.icon-induccionymantenimiento {
+  background-image: url(/media/icons.app/induccionymantenimiento.png);
+}
+
+.icon-comedor {
+  background-image: url(/media/icons.app/comedor.png);
+}
+
+.icon-hoteleria {
+  background-image: url(/media/icons.app/hoteleria.png);
+}
+
+.icon-EPP {
+  background-image: url(/media/icons.app/EPP.png);
+}
+
+.icon-Transporte {
+  background-image: url(/media/icons.app/Transporte.png);
+}
+
+.icon-Dashboard {
+  background-image: url(/media/icons.app/Dashboard.png);
+}
+
+/* Disabled: */
+.icon-2personnel-d {
+  /* background-image: url(/media/logos/favicon.ico); */
+  background-image: url(/media/logos/logo_2personnel_652x288.png);
+  background-position-y: 15px;
+  background-size: 35px 30px;
+}
+
+.text-disabled {
+  font-size: 9px;
+  color: rgba(128, 128, 128, 0.5);
+}
+
+.icon-disabled {
+  background-color: rgba(128, 128, 128, 0.4);
+  border-radius: 50%;
+  cursor: no-drop;
+}
+
+.icon-acreditacion-d {
+  background-image: url(/media/icons.app/acreditacion_0.png);
+}
+
+.icon-visitas-d {
+  background-image: url(/media/icons.app/acceso_0.png);
+}
+
+.icon-identificacion-d {
+  background-image: url(/media/icons.app/identificacion_0.png);
+}
+
+.icon-acceso-d {
+  background-image: url(/media/icons.app/acceso_0.png);
+}
+
+.icon-asistencia-d {
+  background-image: url(/media/icons.app/asistencia_0.png);
+}
+
+.icon-induccionymantenimiento-d {
+  background-image: url(/media/icons.app/induccionymantenimiento_0.png);
+}
+
+.icon-comedor-d {
+  background-image: url(/media/icons.app/comedor_0.png);
+}
+
+.icon-hoteleria-d {
+  background-image: url(/media/icons.app/hoteleria_0.png);
+}
+
+.icon-EPP-d {
+  background-image: url(/media/icons.app/EPP_0.png);
+}
+
+.icon-Transporte-d {
+  background-image: url(/media/icons.app/Transporte_0.png);
+}
+
+.icon-Dashboard-d {
+  background-image: url(/media/icons.app/Dashboard_0.png);
+}
+
+/******************************************/
+/**  CSS LOGIN USER PASSWORD **/
+#kt_login_signin_submit {
+  float: right;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline;
+  margin: auto;
+  height: 46px;
+  width: 88px;
+  border-radius: 4px;
+}
+
+#olvido-contrasenia-ancla {
+  display: block;
+  margin-top: 10px;
+  color: #FFBF00;
+  font-weight: bold;
+}
+
+/******************************************/
+/**  CSS LOGIN AUTHENTICATION **/
+
+#idFormLoginAuthentication div.form-group {
+  margin-bottom: 5px;
+}
+
+#CodigoVerificacion {
+  margin-top: 5px;
+}
+
+.homeRow {
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+
+/******************************************/
+/**  CSS LOGIN USER DIVISION **/
+
+#idFormUserDivision div.form-group {
+  margin: auto !important;
+  width: fit-content;
+  margin-top: 1rem !important;
+}
+
+#idFormUserDivision div.form-group div {
+  margin-top: 0px;
+}
+
+/******************************************/
+/**  CSS FORGOT PASSWORD **/
+#btnEnviarEmail {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+/******************************************/
+/** CSS CHANGE FORGETTEN PASSWORD **/
+#cambiarpass-btnguardarCambios {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+#FormChangeForgottenPassword div.kt-login__actions {
+  margin-top: 10px;
+}
+
+/******************************************/
+.navbarSupportedContent-esquina {
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  width: 25%;
+  height: 50px;
+  top: 50px;
+  position: absolute;
+  left: 0;
+}
+
+.navbarSupportedContent-esquina-blur {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+}
+
+.navbarSupportedContent-esquina-body {
+  /* background-color: red; */
+  /* backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); */
+  border-right: 110px solid transparent;
+  /* border-top: 45px solid rgba(13, 82, 141, 0.9); */
+  border-top: 45px solid rgba(235, 233, 237, 0.9);
+}
+
+#nsc-img-logo-izquierda {
+  height: 90px !important;
+  margin-top: 35px !important;
+  padding-left: 0px !important;
+  margin-left: 15px !important;
+}
+
+.navbarSupportedContent-barra-inferior {
+  top: 0;
+  height: 51px;
+  width: 75%;
+  /* border-color: white; */
+  border-bottom-width: 10px;
+  border-bottom: solid;
+  border-bottom-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  right: 0;
+  background: transparent;
+  display: none;
+}
+
+.clsPopover div.popover {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+  width: 300px;
+}
+
+/******************************************/
+/**** TAMAÑO PEQUEÑO   ********************/
+/******************************************/
+
+/* Change navbar styling on small viewports */
+/*
+@media screen and (max-width: 900px) and (min-width: 300px) {*/
+@media (max-width: 991.98px) {
+  .login-header-nav {
+    height: 100px;
+  }
+
+  .navbarSupportedContent-esquina {
+    display: none;
+  }
+
+  #navbarSupportedContent {
+    display: block;
+    height: 80%;
+  }
+
+  .navbarSupported-right {
+    width: 150px;
+    float: right;
+    display: block;
+    margin-right: 0px;
+    margin-top: 5px;
+  }
+
+  .navbarSupported-right-menu {
+    /* float: right; */
+    width: 60px;
+    min-width: 55px;
+    max-height: 40px;
+  }
+
+  /* .navbarSupported-right-menu span.MuiButton-label span {
+    display: none;
+  }
+
+  .navbarSupported-right-menu span.MuiButton-label {
+    width: 50px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 0;
+  } */
+
+  /* .navbarSupported-right-menu i {
+  } */
+
+  .navbarSupported-center {
+    width: 167px;
+    margin-top: 25px;
+  }
+
+  #navbarSupportedContent img {
+    height: 32px;
+  }
+
+  .content-2personnel-img {
+    bottom: -1px;
+  }
+
+  .content-2personnel-img img {
+    width: 390px;
+  }
+
+  .content-2personnel-txt {
+    right: 0;
+    width: 90%;
+    left: 36px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    color: white;
+    border-radius: 10px;
+  }
+
+  #nsc-img-logo-izquierda {
+    height: 61px !important;
+    margin-top: 5px !important;
+  }
+}
+
+/******************************************/
+/**** TAMAÑO PEQUEÑO - iPhone 5/SE*******/
+/******************************************/
+
+@media (max-width: 414.98px) {
+  #navbarSupportedContent img {
+    height: 25px;
+  }
+
+  .navbarSupported-center {
+    padding-left: 68px;
+  }
+
+  .MuiButtonBase-root i {
+    margin-left: 9px;
+  }
+
+  .content-2personnel-img {
+    left: 0px;
+  }
+
+  .content-2personnel-txt {
+    width: 93%;
+    left: 10px;
+  }
+
+  .content-2personnel-content h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+  }
+}
+
+/* //====================== IMAGEN LOGIN CENTRAL ========================== */
+.sizeImagenLogo {
+  width: 180px;
+  height: auto !important;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.classHeaders {
+  margin-top: -30px !important;
+}
+
+/* ====================== LOGIN VERSION ========================== */
+.classTitulo {
+  color: rgb(255, 255, 255) !important;
+}
+
+.classVersion {
+  margin-left: 5px;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.classAlinear {
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 991.98px) {
+  .content-2personnel-content {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* ============== DESCRIPCION DE LA WEB AL INICIAR ============= */
+.clsDescripcionWeb {
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.75px;
+  padding-top: 22rem;
+  position: relative;
+  margin-left: 5.5rem;
+  width: 31rem;
+}
+
+/* ============== TAMAÑO DE INPUT DEL LOGIN ============= */
+/* .MuiOutlinedInput-root {
+  background-color: white;
+  display: flex;
+  width: 26rem;
+  border-radius: 16px !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+} */
+
+/* ============== TITULO D EL LOGIN ============= */
+.clsTitleLogin {
+  color: rgb(255, 255, 255);
+  font-size: 2.3rem;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+/* ========= ALINEAR LOGIN =========== */
+.loginColumn {
+  width: 37rem;
+  position: relative;
+}
+
+.dx-icon-equal {
+  color: white;
+  font-size: 40px;
+}
+
+/* .MuiIconButton-label {
+  display: flow !important;
+} */
+
+.loginProfile {
+  color: white !important;
+  border: 0;
+  font-weight: 700 !important;
+  letter-spacing: 0.75px !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  padding-right: 14px !important;
+  /* align-items: center;
+    display: flex; */
+}
+
+.loginProfile svg {
+  right: 20px;
+  margin-right: 17px;
+}
+
+.MuiSelect-icon {
+  color: white;
+  font-size: 40px;
+  position: inherit;
+}
+
+.MuiSelect-select.MuiSelect-select {
+  padding-right: 14px !important;
+}
+
+
+/* ================ ALINEAR LOS ICONOS DEL LOGIN ================= */
+
+.clsUsuariodInput > .MuiOutlinedInput-root {
+  padding-right: 0px !important;
+
+  background-color: white;
+  display: flex;
+  width: 26rem;
+  border-radius: 16px !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+.clsUsuariodInput * > input {
+  width: 21rem;
+  height: 0.9rem;
+}
+.clsUsuariodInput * > button {
+  padding-left: 12px;
+}
+
+
+.clsPasswordInput > .MuiOutlinedInput-root {
+  padding-right: 0px !important;
+
+  background-color: white;
+  display: flex;
+  width: 26rem;
+  border-radius: 16px !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+.clsPasswordInput * > input {
+  width: 21rem;
+  height: 0.9rem;
+}
+
+.clsPasswordInput * > .MuiIconButton-edgeEnd {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+
+/* ========== PERSONALIZAR MENU LOGIN ========== */
+.MuiMenu-paper {
+  max-height: calc(100% - 96px);
+  -webkit-overflow-scrolling: touch;
+  background-color: unset !important;
+  /* min-width: 20rem !important; */
+}
+
+.clsMenuPerfil {
+  /* background: #e1e1e1 !important;
+  border-radius: 1.2rem !important;
+  height: 3.9rem !important;
+  min-width: 26rem !important;
+  margin-bottom: 0.5px !important; */
+
+  background: #ffffff !important;
+  min-width: 26rem !important;
+}
+
+.clsMenuSede {
+  /* background: #e1e1e1 !important;
+  border-radius: 1.2rem !important;
+  height: 3.9rem !important;
+  min-width: 26rem !important;
+  margin-bottom: 0.5px !important; */
+
+  background: #ffffff !important;
+  min-width: 26rem !important;
+}
+
+/**  AUMENTA EL FONT DEL LABEL O PLACEHOLDER DIVISION **/
+#idFormUserDivision > .form-group > div > label{
+  font-size: 13px;
+}
+
+/* Start===== QUITAR EL BORDE DE LOS UNPUTS: LOGIN DIVISION ======== */
+#idFormUserDivision *> .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(255 255 255 / 87%);
+}
+
+#idFormUserDivision *> .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(255 255 255 / 23%);
+}
+
+/* ===== QUITAR EL BORDE DE LOS UNPUTS: LOGIN PRINCIPAL Y DIVISION ======== */
+.clsLoginFormUsuario *> .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(255 255 255 / 87%);
+}
+
+.clsLoginFormUsuario *> .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(255 255 255 / 23%);
+}
+
+ .clsLoginFormUsuario *> .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: unset !important;
+} 
+
+.clsLoginFormDivision *> .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 0.5px solid black !important;
+} 

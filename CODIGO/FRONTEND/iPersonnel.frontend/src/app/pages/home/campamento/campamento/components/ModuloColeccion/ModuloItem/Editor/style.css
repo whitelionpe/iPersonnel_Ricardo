@@ -1,0 +1,117 @@
+/* ====================================================================== */
+/* ModuloItem (prefix: mi-) */
+/* ====================================================================== */
+.mi {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+.mi.with-border {
+  border: 5px solid rgba(0, 0, 0, 0.12) !important;
+}
+.mi-col-middle {
+  border-left: 1px solid rgba(0, 0, 0, 0.12) !important;
+  border-right: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+/* .mi.disabled {
+  background: #00000029;
+  pointer-events: none;
+}
+.mi.disabled .vcg-boxes-grid {
+  background: #00000000 !important;
+}
+.mi.disabled .vcg-box {
+  background: #8c898926 !important;
+}
+.mi.disabled .dx-toolbar-items-container {
+  background: #8c898952 !important;
+}
+.mi.disabled .dx-toolbar-item .dx-button-has-icon .dx-button-content {
+  background: #8c89892e !important
+} */
+/* ====================================================================== */
+/* ModuloItemConfigurador (prefix: mic-) */
+/* ====================================================================== */
+.mic {
+  height: 100%;
+}
+/* .mi .disabled .mic {
+  background: #00000029;
+  pointer-events: none;
+}
+.mi .disabled .mic .vcg-boxes-grid {
+  background: #00000000 !important;
+}
+.mi .disabled .mic .vcg-box {
+  background: #8c898926 !important;
+} */
+/* ====================================================================== */
+/* ModuloItemBotonera (prefix: mib-) */
+/* ====================================================================== */
+.mib {
+  height: 100%;
+}
+.mib > .title {
+  color: #646c9a;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.mib > .subtitle {
+  color: #4e5269;
+  padding-bottom: 5px;
+  width: 100%;
+}
+.mib > .item {
+  color: #8d8e90;
+  padding-bottom: 5px;
+  width: 100%;
+}
+.mib .dx-toolbar-items-container {
+  background: unset !important;
+}
+.mib hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+/* .mi .disabled .mib {
+  background: #00000029;
+  pointer-events: none;
+}
+.mi .disabled .mib .dx-toolbar-items-container {
+  background: #8c898952 !important;
+}
+.mi .disabled .mib .dx-toolbar-item .dx-button-has-icon .dx-button-content {
+  background: #8c89892e !important
+} */
+
+
+
+/* EXTRA BOX STYLES */
+.azul-corporativo {
+	background-color: #337ab7;
+	border: 1px solid #262733;
+	color: #ffffff;
+}
+.blanco {
+	background-color: #fafbfd;
+	border: 1px solid #c3c3c7;
+	color: #3e443d;
+}
+.marron {
+	background-color: #754b03;
+	border: 1px solid #652d01;
+	color: #ffffff;
+}
+.verde {
+  background: #00bf00;
+  border: 1px solid #256718;
+  color: #ffffff;
+}
+.verde-petroleo {
+  background-color: #20520e;
+	border: 1px solid #082f00;
+	color: #ffffff;
+}
+.transparente-con-borde {
+	border: 1px solid #abcff3;
+	color: #9a9595;
+}

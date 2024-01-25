@@ -1,0 +1,11 @@
+
+
+.estado_evento_general {
+  color: white;
+  padding: 3px 10px 3px 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  margin: auto;
+}

@@ -1,0 +1,6 @@
+/* ============= DESAPARECE EL FONDO DEL BOTON CERRAR ========= (restaurando)*/
+.dx-button-mode-contained {
+    background-color: #000000;
+    border-color: #ffbf00;
+    color: #ffffff;
+  }

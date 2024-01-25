@@ -1,0 +1,36 @@
+.div_leyenda_reserva {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: 5px;
+  display: inline-flex;
+
+  border: solid #dddddd 1px;
+  padding-top: 5px !important;
+  padding-left: 5px !important;
+  border-radius: 5px;
+  padding-bottom: 0px !important;
+}
+
+.div_leyenda_item_reserva {
+  width: 100px;
+  display: table-cell;
+}
+
+.div_leyenda_item_reserva span {
+  border: solid 1px white;
+  width: 25px;
+  display: inline-block !important;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+  color: white;
+  margin-right: 5px;
+  display: inline-flex;
+}
+
+.div_leyenda_reserva p {
+  font-size: 12px;
+  margin-right: 18px;
+}

@@ -1,0 +1,9 @@
+.datagrid_sin_sombra {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#dg_consolidadoComedores {
+  user-select: none;
+  -webkit-user-select: none;
+}

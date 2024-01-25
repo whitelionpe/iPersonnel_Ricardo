@@ -1,0 +1,20 @@
+.estado_item_general_celda {
+  color: white;
+  padding: 3px 10px 3px 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/**********************/
+.estado_item_ocupado {
+  background-color: rgb(187, 216, 6);
+}
+.estado_item_reservado {
+  background-color: #ff7f2a;
+}
+.estado_item_finalizado {
+  background-color: #007cb7;
+}
+

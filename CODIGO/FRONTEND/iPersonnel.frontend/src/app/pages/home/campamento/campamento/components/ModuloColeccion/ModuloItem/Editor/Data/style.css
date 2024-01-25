@@ -1,0 +1,36 @@
+/* ====================================================================== */
+/* ModuloItemDataInfo (prefix: midi-) */
+/* ====================================================================== */
+/* sobreescritura de clases */
+.midi {
+  color: #646c9a;
+}
+.midi .kt-widget1 {
+  padding: 10px 0px !important;
+}
+.midi .bottom-header.kt-widget1__header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.midi .kt-widget1 .kt-widget1__title {
+  font-weight: 500;
+}
+.midi .kt-widget1__header .kt-widget1__title {
+  font-size: 2rem !important;
+}
+.midi .kt-widget1__header .buttons-header {
+  display: inline-flex !important;
+  position: absolute !important;
+  right: 0 !important;
+}
+.midi .kt-widget1__item.ng-star-inserted {
+  padding: .5rem 1rem .5rem 0px !important;
+}
+.midi .kt-widget1__item:first-child {
+  padding-top: 0 !important;
+}
+.midi .kt-widget1__item:last-child {
+  padding-bottom: 0 !important;
+}
+.midi .kt-widget1__item .kt-widget1__number {
+  font-size: 1rem !important;
+}

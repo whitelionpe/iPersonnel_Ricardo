@@ -1,0 +1,16 @@
+.vcg-custom-pagination > div {
+  display: inline-flex;
+  font-size: 12px !important;
+}
+
+.vcg-custom-pagination .pagination .page-link {
+  color: #337ab7;
+  font-size: 12px !important;
+}
+
+.vcg-custom-pagination .pagination .page-item.active .page-link {
+  color: #fff;
+  background-color:#337ab7;
+  border-color: #164873;
+  font-size: 12px !important;
+}
