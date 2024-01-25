@@ -19,9 +19,9 @@ class Constants extends React.Component {
   //static API_URL = "http://192.168.3.41:4091"; 
   //static API_URL = "http://192.168.3.41:8098";//API DEV ACREDITACION   
   //static API_URL = "https://api2personnelplus.whitelion.pe:8091";
-  //static API_URL = "https://api2personnelplus.whitelion.pe:8091"; //Produccion
+  static API_URL = "https://api2personnelplus.whitelion.pe:8091"; //Produccion
   //static API_URL = "https://2pbackendwlt.azurewebsites.net"; //AZURE V1
-  static API_URL = "https://apps.whitelion.pe"; //AZURE V2
+  //static API_URL = "https://apps.whitelion.pe"; //AZURE V2
 
   static API_URL_LOCALHOST = "http://localhost:1010";//::::::-> NO COMENTAR, SE USA PARA EDIT/PRINT BADGE..:::::::
   static AppName = "2PERSONNEL";
